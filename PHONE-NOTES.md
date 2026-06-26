@@ -1,9 +1,17 @@
-# Phone notes
+# Phone Notes
 
-Use this file when working from your phone.
+## 목적
 
-Add notes, tasks, ideas, or instructions below. Commit the change on GitHub, and the PCs will sync it automatically.
+이 파일은 휴대폰에서 빠르게 기록한 메모를 정리하기 위한 노트입니다.
 
-## Notes
+## 메모
 
-- 
+- 2026-06-27: `Phone-notes.md` 파일 생성
+- GitHub 원격 저장소 기준으로 Codex handoff 테스트용 파일 준비
+
+## 다음에 정리할 내용
+
+- 통화 메모
+- 업무 아이디어
+- 확인할 일
+- 후속 작업
