@@ -1,0 +1,10 @@
+This file was created on this computer to confirm that GitHub upload works.
+
+Project path:
+C:\Users\Administrator\Documents\New project
+
+GitHub repository:
+https://github.com/dlsgh87-spec/new-project
+
+Date:
+2026-06-27
