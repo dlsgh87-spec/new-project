@@ -10,3 +10,8 @@ https://github.com/dlsgh87-spec/new-project
 Quick sync:
 - Run `sync-from-github.bat` to download the latest work.
 - Run `save-to-github.bat "message"` to save and upload local changes.
+
+Mobile:
+- Open `PHONE-NOTES.md` from the GitHub app or browser.
+- Edit and commit it on GitHub.
+- The PCs will sync the change automatically.
