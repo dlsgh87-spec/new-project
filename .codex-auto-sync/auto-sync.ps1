@@ -64,14 +64,36 @@ function Stop-IfConflictOrOperationInProgress {
         throw "Rebase is already in progress. Stopping without overwriting anything."
     }
 
-    $unmerged = (Invoke-Git @("diff", "--name-only", "--diff-filter=U")).Output
+    $unmergedResult = Invoke-Git @("diff", "--name-only", "--diff-filter=U") -AllowFailure
+    $unmerged = @(
+        $unmergedResult.Output |
+            Where-Object { $_ -and ($_ -notmatch "^warning: ") }
+    )
     if ($unmerged.Count -gt 0) {
         throw "Unmerged files exist. Stopping without overwriting anything: $($unmerged -join ', ')"
     }
 }
 
+function Repair-BrokenOrigHead {
+    $gitDir = (Invoke-Git @("rev-parse", "--git-dir")).Output | Select-Object -First 1
+    $origHeadPath = Join-Path $gitDir "ORIG_HEAD"
+
+    if (-not (Test-Path $origHeadPath)) {
+        return
+    }
+
+    $verify = Invoke-Git @("rev-parse", "--verify", "--quiet", "ORIG_HEAD") -AllowFailure
+    if ($verify.Code -ne 0) {
+        Write-Log "Removing broken ORIG_HEAD metadata."
+        Remove-Item -LiteralPath $origHeadPath -Force
+    }
+}
+
 function Test-WorkingTreeHasChanges {
-    $status = (Invoke-Git @("status", "--porcelain")).Output
+    $status = @(
+        (Invoke-Git @("status", "--porcelain")).Output |
+            Where-Object { $_ -and ($_ -notmatch "^warning: ") }
+    )
     return $status.Count -gt 0
 }
 
@@ -117,6 +139,8 @@ try {
 
     Stop-IfConflictOrOperationInProgress
 
+    Repair-BrokenOrigHead
+
     if (Test-WorkingTreeHasChanges) {
         Write-Log "Local changes found. Committing before sync."
         Invoke-Git @("add", "-A") | Out-Null
@@ -131,6 +155,8 @@ try {
     }
 
     Stop-IfConflictOrOperationInProgress
+
+    Repair-BrokenOrigHead
 
     $pull = Invoke-Git @("pull", "--rebase", $RemoteName, $Branch) -AllowFailure
     if ($pull.Code -ne 0) {
