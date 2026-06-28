@@ -10,6 +10,7 @@ https://github.com/dlsgh87-spec/new-project
 Quick sync:
 - Run `sync-from-github.bat` to download the latest work.
 - Run `save-to-github.bat "message"` to save and upload local changes.
+- Use `run-auto-sync-hidden.vbs` for background automation without a visible console window.
 
 Mobile:
 - Open `PHONE-NOTES.md` from the GitHub app or browser.
