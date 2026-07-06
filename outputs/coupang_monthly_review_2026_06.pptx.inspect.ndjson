@@ -1,0 +1,124 @@
+{"kind":"deck","id":"pr/9je2jb","name":"Deck"}
+{"kind":"layout","layoutId":"f0241224-2e47-4a24-9fac-ce08fa18b84e","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7b98f214-afbe-4dfc-91bc-44004d3e5cc3","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/aeslra","slide":1,"title":"쿠팡 6월 월간 리뷰","textShapes":18}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":1,"text":"쿠팡 6월 월간 리뷰","textPreview":"쿠팡 6월 월간 리뷰","textChars":11,"textLines":1,"bbox":[42,64,840,90]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":1,"text":"정리된 POS 원장 기준으로 본 매출 성장, 카테고리 구조, 베스트 SKU, 성장 원인","textPreview":"정리된 POS 원장 기준으로 본 매출 성장, 카테고리 구조, 베스트 SKU, 성장 원인","textChars":48,"textLines":1,"bbox":[44,176,760,68]}
+{"kind":"shape","id":"sh/cvixczed","slide":1,"bbox":[42,348,260,168]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":1,"text":"6월 Sell-out","textPreview":"6월 Sell-out","textChars":11,"textLines":1,"bbox":[66,370,212,34]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":1,"text":"9,888만원","textPreview":"9,888만원","textChars":7,"textLines":1,"bbox":[66,406,212,62]}
+{"kind":"textbox","id":"sh/54zidony","slide":1,"text":"5월 대비 +23.1%","textPreview":"5월 대비 +23.1%","textChars":12,"textLines":1,"bbox":[66,470,212,34]}
+{"kind":"shape","id":"sh/cj6tovah","slide":1,"bbox":[346,348,260,168]}
+{"kind":"textbox","id":"sh/judg7ads","slide":1,"text":"고양이 매출비중","textPreview":"고양이 매출비중","textChars":8,"textLines":1,"bbox":[370,370,212,34]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":1,"text":"72.5%","textPreview":"72.5%","textChars":5,"textLines":1,"bbox":[370,406,212,62]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":1,"text":"증가분 기여 74.4%","textPreview":"증가분 기여 74.4%","textChars":12,"textLines":1,"bbox":[370,470,212,34]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":1,"bbox":[650,348,260,168]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":1,"text":"6월 광고전환매출","textPreview":"6월 광고전환매출","textChars":9,"textLines":1,"bbox":[674,370,212,34]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":1,"text":"5,889만원","textPreview":"5,889만원","textChars":7,"textLines":1,"bbox":[674,406,212,62]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":1,"text":"ROAS 499.7%","textPreview":"ROAS 499.7%","textChars":11,"textLines":1,"bbox":[674,470,212,34]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":1,"bbox":[954,348,260,168]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":1,"text":"7월 확정발주","textPreview":"7월 확정발주","textChars":7,"textLines":1,"bbox":[978,370,212,34]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":1,"text":"6,400만원","textPreview":"6,400만원","textChars":7,"textLines":1,"bbox":[978,406,212,62]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":1,"text":"포함가 기준","textPreview":"포함가 기준","textChars":6,"textLines":1,"bbox":[978,470,212,34]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":1,"text":"핵심 결론","textPreview":"핵심 결론","textChars":5,"textLines":1,"bbox":[44,565,160,28]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":1,"text":"6월 성장은 고양이 주력 SKU, 쿠폰 적용 범위 확대, 광고 효율 유지가 함께 만든 결과입니다. 높은 매출 직후 7월 확정 발주가 이미 들어온 점도 긍정적입니다.","textPreview":"6월 성장은 고양이 주력 SKU, 쿠폰 적용 범위 확대, 광고 효율 유지가 함께 만든 결과입니다. 높은 매출 직후 7월 확정 발주가 이미 들어온 점도 긍정적입니다.","textChars":91,"textLines":1,"bbox":[204,562,990,60]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":1,"text":"Coupang Monthly Review · 1","textPreview":"Coupang Monthly Review · 1","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"notes","id":"nt/aeslra","slide":1,"text":""}
+{"kind":"slide","id":"sl/4ldrvn","slide":2,"title":"6월 매출은 5월 대비 23.1% 성장했습니다","textShapes":14}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":2,"text":"6월 매출은 5월 대비 23.1% 성장했습니다","textPreview":"6월 매출은 5월 대비 23.1% 성장했습니다","textChars":25,"textLines":1,"bbox":[42,36,870,112]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":2,"text":"정리된 POS 상세 기준 Sell-out 매출은 4월 7,629만원, 5월 8,031만원, 6월 9,888만원입니다.","textPreview":"정리된 POS 상세 기준 Sell-out 매출은 4월 7,629만원, 5월 8,031만원, 6월 9,888만원입니다.","textChars":65,"textLines":1,"bbox":[42,142,760,54]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":2,"text":"Coupang Monthly Review · 2","textPreview":"Coupang Monthly Review · 2","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"shape","id":"sh/obm58z25","slide":2,"bbox":[42,220,240,140]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":2,"text":"4월 → 5월","textPreview":"4월 → 5월","textChars":7,"textLines":1,"bbox":[66,242,192,34]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":2,"text":"+5.3%","textPreview":"+5.3%","textChars":5,"textLines":1,"bbox":[66,278,192,62]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":2,"text":"완만한 성장","textPreview":"완만한 성장","textChars":6,"textLines":1,"bbox":[66,342,192,34]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":2,"bbox":[42,386,240,140]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":2,"text":"5월 → 6월","textPreview":"5월 → 6월","textChars":7,"textLines":1,"bbox":[66,408,192,34]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":2,"text":"+23.1%","textPreview":"+23.1%","textChars":6,"textLines":1,"bbox":[66,444,192,62]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":2,"text":"성장 폭 확대","textPreview":"성장 폭 확대","textChars":7,"textLines":1,"bbox":[66,508,192,34]}
+{"kind":"shape","id":"sh/1gvy90je","slide":2,"bbox":[42,552,240,100]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":2,"text":"4월 → 6월","textPreview":"4월 → 6월","textChars":7,"textLines":1,"bbox":[66,574,192,34]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":2,"text":"+29.6%","textPreview":"+29.6%","textChars":6,"textLines":1,"bbox":[66,610,192,62]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":2,"text":"두 달 누적","textPreview":"두 달 누적","textChars":6,"textLines":1,"bbox":[66,674,192,34]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":2,"text":"7월은 7/5까지 1,811만원으로 월중 데이터입니다. 현재 일평균은 362만원 수준이며, 확정 발주 6,400만원이 이미 들어와 6월 이후 수요 연속성이 확인됩니다.","textPreview":"7월은 7/5까지 1,811만원으로 월중 데이터입니다. 현재 일평균은 362만원 수준이며, 확정 발주 6,400만원이 이미 들어와 6월 이후 수요 연속성이 확인됩니다.","textChars":93,"textLines":1,"bbox":[335,606,850,46]}
+{"kind":"chart","id":"ch/h4byhgn2","slide":2,"name":"","chartType":"bar","bbox":[335,215,850,375]}
+{"kind":"notes","id":"nt/4ldrvn","slide":2,"text":""}
+{"kind":"slide","id":"sl/5j4g8n","slide":3,"title":"고양이가 6월 증가분의 74%를 만들었습니다","textShapes":9}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":3,"text":"고양이가 6월 증가분의 74%를 만들었습니다","textPreview":"고양이가 6월 증가분의 74%를 만들었습니다","textChars":24,"textLines":1,"bbox":[42,36,870,112]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":3,"text":"강아지도 반등했지만, 매출 구조는 고양이 중심으로 더 강해졌습니다.","textPreview":"강아지도 반등했지만, 매출 구조는 고양이 중심으로 더 강해졌습니다.","textChars":37,"textLines":1,"bbox":[42,142,760,54]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":3,"text":"Coupang Monthly Review · 3","textPreview":"Coupang Monthly Review · 3","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"shape","id":"sh/8v6psfil","slide":3,"bbox":[805,506,390,118]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":3,"text":"6월 증가 기여","textPreview":"6월 증가 기여","textChars":8,"textLines":1,"bbox":[829,528,342,34]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":3,"text":"고양이 74.4%","textPreview":"고양이 74.4%","textChars":9,"textLines":1,"bbox":[829,564,342,62]}
+{"kind":"textbox","id":"sh/svu9knih","slide":3,"text":"5월 대비 +1,382만원","textPreview":"5월 대비 +1,382만원","textChars":14,"textLines":1,"bbox":[829,628,342,34]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":3,"text":"의미","textPreview":"의미","textChars":2,"textLines":1,"bbox":[58,580,74,28]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":3,"text":"매출 증가는 전체 SKU가 균등하게 오른 결과라기보다, 고양이 주력 라인과 캔/세븐/에이지 확장이 만든 구조적 성장에 가깝습니다.","textPreview":"매출 증가는 전체 SKU가 균등하게 오른 결과라기보다, 고양이 주력 라인과 캔/세븐/에이지 확장이 만든 구조적 성장에 가깝습니다.","textChars":72,"textLines":1,"bbox":[136,578,625,52]}
+{"kind":"chart","id":"ch/qh0fepkz","slide":3,"name":"","chartType":"bar","bbox":[58,205,700,345]}
+{"kind":"table","id":"tb/oza1gvy9","slide":3,"name":"","rows":5,"cols":4,"preview":"월 | 강아지 | 고양이 | 고양이 비중","bbox":[805,218,390,250]}
+{"kind":"notes","id":"nt/5j4g8n","slide":3,"text":""}
+{"kind":"slide","id":"sl/7d5q6u","slide":4,"title":"6월 베스트 SKU는 고양이 면역 라인이 상위권을 장악했습니다","textShapes":7}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":4,"text":"6월 베스트 SKU는 고양이 면역 라인이 상위권을 장악했습니다","textPreview":"6월 베스트 SKU는 고양이 면역 라인이 상위권을 장악했습니다","textChars":34,"textLines":1,"bbox":[42,36,870,112]}
+{"kind":"textbox","id":"sh/d0z61032","slide":4,"text":"상위 10개 SKU가 6월 Sell-out의 약 77%를 차지했습니다.","textPreview":"상위 10개 SKU가 6월 Sell-out의 약 77%를 차지했습니다.","textChars":39,"textLines":1,"bbox":[42,142,760,54]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":4,"text":"Coupang Monthly Review · 4","textPreview":"Coupang Monthly Review · 4","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"shape","id":"sh/knih4byh","slide":4,"bbox":[785,566,420,86]}
+{"kind":"textbox","id":"sh/val87ed8","slide":4,"text":"Top 4 공통점","textPreview":"Top 4 공통점","textChars":9,"textLines":1,"bbox":[809,588,372,34]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":4,"text":"전부 고양이","textPreview":"전부 고양이","textChars":6,"textLines":1,"bbox":[809,624,372,62]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":4,"text":"바이오(면역)-캣 라인","textPreview":"바이오(면역)-캣 라인","textChars":12,"textLines":1,"bbox":[809,688,372,34]}
+{"kind":"chart","id":"ch/eloj2t83","slide":4,"name":"","chartType":"bar","bbox":[52,206,690,390]}
+{"kind":"table","id":"tb/wjudg7ad","slide":4,"name":"","rows":6,"cols":5,"preview":"순위 | SKU | 종 | 6월 | MoM","bbox":[785,210,420,330]}
+{"kind":"notes","id":"nt/7d5q6u","slide":4,"text":""}
+{"kind":"slide","id":"sl/xdoemi","slide":5,"title":"성장은 카테고리 확장과 판촉·광고가 함께 만든 결과입니다","textShapes":18}
+{"kind":"textbox","id":"sh/s72x4nap","slide":5,"text":"성장은 카테고리 확장과 판촉·광고가 함께 만든 결과입니다","textPreview":"성장은 카테고리 확장과 판촉·광고가 함께 만든 결과입니다","textChars":31,"textLines":1,"bbox":[42,36,870,112]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":5,"text":"6월에는 주력 고양이 SKU가 규모를 만들고, 쿠폰과 광고가 판매 전환을 받쳐줬습니다.","textPreview":"6월에는 주력 고양이 SKU가 규모를 만들고, 쿠폰과 광고가 판매 전환을 받쳐줬습니다.","textChars":48,"textLines":1,"bbox":[42,142,760,54]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":5,"text":"Coupang Monthly Review · 5","textPreview":"Coupang Monthly Review · 5","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"shape","id":"sh/sji5snel","slide":5,"bbox":[42,205,350,165]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":5,"text":"프로모션 매출","textPreview":"프로모션 매출","textChars":7,"textLines":1,"bbox":[66,227,302,34]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":5,"text":"7,749만원","textPreview":"7,749만원","textChars":7,"textLines":1,"bbox":[66,263,302,62]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":5,"text":"5월 대비 +61.7%","textPreview":"5월 대비 +61.7%","textChars":12,"textLines":1,"bbox":[66,327,302,34]}
+{"kind":"shape","id":"sh/svu9knih","slide":5,"bbox":[42,397,350,165]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":5,"text":"즉시할인비용","textPreview":"즉시할인비용","textChars":6,"textLines":1,"bbox":[66,419,302,34]}
+{"kind":"textbox","id":"sh/7u54zido","slide":5,"text":"538만원","textPreview":"538만원","textChars":5,"textLines":1,"bbox":[66,455,302,62]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":5,"text":"총 Sell-out의 5.4%","textPreview":"총 Sell-out의 5.4%","textChars":16,"textLines":1,"bbox":[66,519,302,34]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":5,"bbox":[444,205,350,165]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":5,"text":"광고전환매출","textPreview":"광고전환매출","textChars":6,"textLines":1,"bbox":[468,227,302,34]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":5,"text":"5,889만원","textPreview":"5,889만원","textChars":7,"textLines":1,"bbox":[468,263,302,62]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":5,"text":"ROAS 499.7%","textPreview":"ROAS 499.7%","textChars":11,"textLines":1,"bbox":[468,327,302,34]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":5,"bbox":[444,397,350,165]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":5,"text":"광고 매출기여","textPreview":"광고 매출기여","textChars":7,"textLines":1,"bbox":[468,419,302,34]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":5,"text":"59.6%","textPreview":"59.6%","textChars":5,"textLines":1,"bbox":[468,455,302,62]}
+{"kind":"textbox","id":"sh/z61032ls","slide":5,"text":"6월 Sell-out 대비","textPreview":"6월 Sell-out 대비","textChars":14,"textLines":1,"bbox":[468,519,302,34]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":5,"text":"해석","textPreview":"해석","textChars":2,"textLines":1,"bbox":[840,548,70,28]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":5,"text":"애묘간식캔, 바이오 캣, 세븐 라인이 동시에 올라오며 카테고리 포트폴리오가 넓어졌습니다. 다만 PPM은 5월 36.66%에서 6월 35.32%로 낮아져 판촉 비용 관리는 필요합니다.","textPreview":"애묘간식캔, 바이오 캣, 세븐 라인이 동시에 올라오며 카테고리 포트폴리오가 넓어졌습니다. 다만 PPM은 5월 36.66%에서 6월 35.32%로 낮아져 판촉 비용 관리는 필요합니다.","textChars":101,"textLines":1,"bbox":[912,544,300,82]}
+{"kind":"table","id":"tb/1kre1w7m","slide":5,"name":"","rows":6,"cols":3,"preview":"성장 기여 품종 | 증가액 | MoM","bbox":[840,214,380,308]}
+{"kind":"notes","id":"nt/xdoemi","slide":5,"text":""}
+{"kind":"slide","id":"sl/whn6vw","slide":6,"title":"7월은 발주가 이미 들어와 6월 성장의 후속 신호가 좋습니다","textShapes":20}
+{"kind":"textbox","id":"sh/adsji5sn","slide":6,"text":"7월은 발주가 이미 들어와 6월 성장의 후속 신호가 좋습니다","textPreview":"7월은 발주가 이미 들어와 6월 성장의 후속 신호가 좋습니다","textChars":33,"textLines":1,"bbox":[42,36,870,112]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":6,"text":"높은 매출 다음 달에 포함가 기준 6,400만원 확정 발주가 유입된 점은 긍정적입니다.","textPreview":"높은 매출 다음 달에 포함가 기준 6,400만원 확정 발주가 유입된 점은 긍정적입니다.","textChars":48,"textLines":1,"bbox":[42,142,760,54]}
+{"kind":"textbox","id":"sh/sji5snel","slide":6,"text":"Coupang Monthly Review · 6","textPreview":"Coupang Monthly Review · 6","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":6,"bbox":[42,218,285,150]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":6,"text":"7월 Sell-out","textPreview":"7월 Sell-out","textChars":11,"textLines":1,"bbox":[66,240,237,34]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":6,"text":"1,811만원","textPreview":"1,811만원","textChars":7,"textLines":1,"bbox":[66,276,237,62]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":6,"text":"7/5까지 POS 기준","textPreview":"7/5까지 POS 기준","textChars":12,"textLines":1,"bbox":[66,340,237,34]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":6,"bbox":[360,218,285,150]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":6,"text":"일평균","textPreview":"일평균","textChars":3,"textLines":1,"bbox":[384,240,237,34]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":6,"text":"362만원","textPreview":"362만원","textChars":5,"textLines":1,"bbox":[384,276,237,62]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":6,"text":"월환산 1.12억원 수준","textPreview":"월환산 1.12억원 수준","textChars":13,"textLines":1,"bbox":[384,340,237,34]}
+{"kind":"shape","id":"sh/j2t83itg","slide":6,"bbox":[678,218,285,150]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":6,"text":"확정 발주","textPreview":"확정 발주","textChars":5,"textLines":1,"bbox":[702,240,237,34]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":6,"text":"6,400만원","textPreview":"6,400만원","textChars":7,"textLines":1,"bbox":[702,276,237,62]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":6,"text":"포함가 기준","textPreview":"포함가 기준","textChars":6,"textLines":1,"bbox":[702,340,237,34]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":6,"bbox":[996,218,220,150]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":6,"text":"6월 확정매출","textPreview":"6월 확정매출","textChars":7,"textLines":1,"bbox":[1020,240,172,34]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":6,"text":"8,241만원","textPreview":"8,241만원","textChars":7,"textLines":1,"bbox":[1020,276,172,62]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":6,"text":"입고/매입 기준","textPreview":"입고/매입 기준","textChars":8,"textLines":1,"bbox":[1020,340,172,34]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":6,"text":"다음 액션","textPreview":"다음 액션","textChars":5,"textLines":1,"bbox":[42,430,220,48]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":6,"text":"고양이 바이오·애묘캔·세븐 캣의 재고를 우선 점검해 품절 리스크를 줄입니다.\n쿠폰은 성장에 기여했지만 비용도 커졌으므로 SKU별 할인 효율을 나눠 봅니다.\n광고는 효율이 유지되는 애묘사료·애견사료 중심으로 예산을 유지하고, 유산균/데일리스틱은 효율 개선이 필요합니다.\n월별 주요지표 탭 일부 값은 중복 삭제 전 숫자가 남아 있어 POS 원장 기준으로 갱신하면 발표 숫자와 대시보드가 맞습니다.","textPreview":"고양이 바이오·애묘캔·세븐 캣의 재고를 우선 점검해 품절 리스크를 줄입니다. | 쿠폰은 성장에 기여했지만 비용도 커졌으므로 SKU별 할인 효율을 나눠 봅니다. | 광고는 효율이 유지되는 애묘사료·애견사료 중심으로 예산을 유지하고, 유산균/데일리스...","textChars":219,"textLines":4,"bbox":[320,420,860,180]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":6,"text":"Coupang Monthly Review · 6","textPreview":"Coupang Monthly Review · 6","textChars":26,"textLines":1,"bbox":[42,660,420,24]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,660,70,24]}
+{"kind":"notes","id":"nt/whn6vw","slide":6,"text":""}
