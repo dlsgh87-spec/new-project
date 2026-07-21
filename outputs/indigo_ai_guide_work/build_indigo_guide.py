@@ -404,7 +404,7 @@ def build():
         "AI 이미지는 사용하지 마세요.",
         "패키지, 소포장, 실제 반려견/반려묘 급여 장면을 직접 촬영하세요.",
         "사료 제품은 다른 제품과 섞어 급여한 사진을 피하세요.",
-        "이미지 파일명과 alt에는 키워드를 자연스럽게 넣으세요. 예: indigo-dog-hypoallergenic-mealworm-feed.jpg",
+        "이미지 파일명과 대체 텍스트(이미지 설명)에는 키워드를 자연스럽게 넣으세요. 예: indigo-dog-hypoallergenic-mealworm-feed.jpg",
     ])
     p(doc)
 
