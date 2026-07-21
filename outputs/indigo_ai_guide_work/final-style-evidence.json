@@ -1,0 +1,143 @@
+{
+  "input": "C:\\Users\\Administrator\\Documents\\New project\\outputs\\indigo_ai_guide\\\uc778\ub514\uace0 \ube0c\ub79c\ub4dc AI \uac80\uc0c9 \ucd5c\uc801\ud654 \uac00\uc774\ub4dc.docx",
+  "fonts_by_char_count": {
+    "\ub9d1\uc740 \uace0\ub515": 8382
+  },
+  "direct_run_formatting_runs": 255,
+  "direct_paragraph_formatting_paragraphs": 0,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 5,
+      "text": "1. AI\uac00 \uc778\uc6a9\ud558\ub294 \uc778\ub514\uace0 \ub9ac\ubdf0 \uae00\uc758 7\uac00\uc9c0 \uc6d0\uce59",
+      "style": "Normal"
+    },
+    {
+      "para_index": 6,
+      "text": "\uc6d0\uce59 1. \ub450\uad04\uc2dd - \uacb0\ub860\uc744 \ub9e8 \uc55e\uc5d0",
+      "style": "Normal"
+    },
+    {
+      "para_index": 10,
+      "text": "\uc6d0\uce59 2. \uc9c8\ubb38\uc744 \uc18c\uc81c\ubaa9\uc73c\ub85c (\uac80\uc0c9 \ubb38\uc7a5\ud615)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 14,
+      "text": "\uc6d0\uce59 3. \ud55c \ubb38\uc7a5 \uc815\uc758 \"~\ub780 ~\uc774\ub2e4\"",
+      "style": "Normal"
+    },
+    {
+      "para_index": 18,
+      "text": "\uc6d0\uce59 4. \uad6c\uccb4\uc801\uc778 \uc22b\uc790\u00b7\uc0ac\uc2e4",
+      "style": "Normal"
+    },
+    {
+      "para_index": 22,
+      "text": "\uc6d0\uce59 5. \ud45c\u00b7\ub9ac\uc2a4\ud2b8\ub85c \uad6c\uc870\ud654",
+      "style": "Normal"
+    },
+    {
+      "para_index": 25,
+      "text": "\uc6d0\uce59 6. \uae00 \ub05d\uc5d0 FAQ 3~5\uac1c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 28,
+      "text": "\uc6d0\uce59 7. \uacbd\ud5d8\u00b7\uc2e0\ub8b0 (E-E-A-T)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 31,
+      "text": "2. \uc81c\ud488\ubcc4 \ud0a4\uc6cc\ub4dc \uc0ac\uc6a9 \uae30\uc900",
+      "style": "Normal"
+    },
+    {
+      "para_index": 39,
+      "text": "[\uc81c\ubaa9 \uc608\uc2dc]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 44,
+      "text": "[\ub9e8 \uc704 3\uc904 - \ub450\uad04\uc2dd \uacb0\ub860]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 49,
+      "text": "[\uc774 \uc81c\ud488\uc774 \ubb50\uc608\uc694? - \ud55c \ubb38\uc7a5 \uc815\uc758]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 54,
+      "text": "[\uc9c1\uc811 \uae09\uc5ec\ud574\ubd24\uc5b4\uc694 - \uacbd\ud5d8 + \uc0ac\uc9c4]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 60,
+      "text": "[\uc81c\ud488 \ud2b9\uc9d5\uc740 \uc5b4\ub5bb\uac8c \ub9d0\ud558\uba74 \uc88b\uc544\uc694?]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 65,
+      "text": "[\ube44\uad50\ud45c]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 67,
+      "text": "[\uc774\ub807\uac8c \uae09\uc5ec/\ucd2c\uc601\ud558\uba74 \uc88b\uc544\uc694 - \ud65c\uc6a9\ubc95 \ub9ac\uc2a4\ud2b8]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 74,
+      "text": "[\uc790\uc8fc \ubb3b\ub294 \uc9c8\ubb38 - FAQ]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 87,
+      "text": "[\ud0dc\uadf8]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 93,
+      "text": "[\uc81c\ubaa9 \uc608\uc2dc]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 98,
+      "text": "[\ub9e8 \uc704 3\uc904 - \ub450\uad04\uc2dd \uacb0\ub860]",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "\uc778\ub514\uace0 \ub124\uc774\ubc84 \ube14\ub85c\uadf8 AI \uac80\uc0c9 \ucd5c\uc801\ud654 \uac00\uc774\ub4dc (\uc778\ud50c\ub8e8\uc5b8\uc11c\uc6a9)",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "\u203b \ubcf8 \uac00\uc774\ub4dc\ub294 \ube0c\ub79c\ub4dc\ucee4\ub125\ud2b8 \uc694\uccad\uc11c \uae30\uc900\uc73c\ub85c \uc791\uc131\ud588\uc2b5\ub2c8\ub2e4. \uc81c\ud488 \uc0c1\uc138\ud398\uc774\uc9c0\uc640 \uc2e4\uc81c \ub77c\ubca8\uc5d0 \uc5c6\ub294 \ub0b4\uc6a9\uc740 \ucd94\uac00\ud558\uc9c0 \ub9d0\uace0, \ubc1c\ud589 \uc804 \uc0ac\uc2e4 \ud45c\uae30\ub97c \ubc18\ub4dc",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "1. AI\uac00 \uc778\uc6a9\ud558\ub294 \uc778\ub514\uace0 \ub9ac\ubdf0 \uae00\uc758 7\uac00\uc9c0 \uc6d0\uce59",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "run_text": "\uc6d0\uce59 1. \ub450\uad04\uc2dd - \uacb0\ub860\uc744 \ub9e8 \uc55e\uc5d0",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "run_text": "AI\ub294 \uae00 \uc55e\ubd80\ubd84\uc5d0\uc11c \ub2f5\uc744 \ucd94\ucd9c\ud569\ub2c8\ub2e4. \uccab 2~3\ubb38\uc7a5 \uc548\uc5d0 \uc81c\ud488\uba85, \uc0ac\uc6a9 \ub300\uc0c1, \uc9c1\uc811 \uae09\uc5ec\ud574\ubcf8 \uacb0\ub860\uc744 \ub123\uc73c\uc138\uc694.",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}
