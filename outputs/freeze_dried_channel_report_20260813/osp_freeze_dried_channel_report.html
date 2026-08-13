@@ -365,12 +365,15 @@
 
     .benchmark-grid {
       display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 12px;
     }
 
     .benchmark {
+      display: grid;
+      grid-template-columns: 132px minmax(0, 1fr);
       overflow: hidden;
+      min-height: 150px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: #fff;
@@ -378,33 +381,44 @@
 
     .benchmark .photo {
       display: grid;
-      height: 170px;
+      min-height: 150px;
       place-items: center;
-      background: #f4f6f8;
+      overflow: hidden;
+      border-right: 1px solid var(--line);
+      background: #f8fafb;
     }
 
     .benchmark img {
+      display: block;
       width: 100%;
       height: 100%;
       object-fit: contain;
-      padding: 10px;
+      object-position: center;
+      padding: 14px;
     }
 
     .benchmark .body {
-      padding: 14px;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      min-width: 0;
+      flex-direction: column;
+      justify-content: center;
+      padding: 16px;
+      background: #fff;
     }
 
     .benchmark strong {
       display: block;
-      min-height: 44px;
-      font-size: 14px;
+      min-height: 0;
+      font-size: 15px;
       line-height: 1.35;
     }
 
     .benchmark .price {
       margin-top: 10px;
       color: var(--accent);
-      font-size: 20px;
+      font-size: 19px;
       font-weight: 900;
     }
 
@@ -525,6 +539,14 @@
       .strategy-map,
       .benchmark-grid {
         grid-template-columns: 1fr;
+      }
+
+      .benchmark {
+        grid-template-columns: 112px minmax(0, 1fr);
+      }
+
+      .benchmark .photo {
+        min-height: 128px;
       }
     }
   </style>
@@ -974,64 +996,75 @@
           <h2>5. 경쟁사 벤치마크</h2>
         </div>
         <p class="section-note">
-          쿠팡은 실제 노출 상품을 중심으로 봤고, 다이소는 동원F&B 아르르 밥꾸 출시 사례를 기준점으로 잡았습니다.
-          신규 아이디어는 리뷰 축적 상품과 가격대를 함께 확인했습니다.
+          다이소몰, 코스트코 온라인몰, 쿠팡을 나눠 확인했습니다.
+          다이소는 저가 체험형, 코스트코는 번들·대용량형, 쿠팡은 검색·리뷰형 벤치마크로 봅니다.
         </p>
       </div>
 
       <div class="benchmark-grid">
         <article class="benchmark">
           <div class="photo">
-            <img src="assets/bench-daiso-arrre.jpg" alt="다이소 동원F&B 아르르 밥꾸 동결건조 간식" />
+            <img src="assets/bench-daiso-arrr-chicken.jpg" alt="다이소몰 아르르 치킨 미니트릿 10g" />
           </div>
           <div class="body">
-            <strong>동원F&amp;B 아르르 밥꾸</strong>
+            <strong>다이소몰 아르르 치킨 미니트릿</strong>
             <div class="price">1,000원</div>
-            <div class="meta">다이소 전용 16종, 소용량 밥꾸형</div>
+            <div class="meta">10g · 소용량 밥꾸/토핑형</div>
           </div>
         </article>
 
         <article class="benchmark">
           <div class="photo">
-            <img src="assets/bench-kantana-chicken.jpg" alt="칸타나 동결건조 치킨 스몰텐더 500g" />
+            <img src="assets/bench-daiso-sajo-salmon.jpg" alt="다이소몰 사조 벤티프리즈 동결 건조 연어 30g" />
           </div>
           <div class="body">
-            <strong>칸타나 치킨 스몰텐더</strong>
-            <div class="price">19,890원</div>
-            <div class="meta">500g · 10g당 398원 · 쿠팡 노출</div>
+            <strong>다이소몰 사조 벤티프리즈 연어</strong>
+            <div class="price">3,000원</div>
+            <div class="meta">30g · 저가 원물 트릿형</div>
           </div>
         </article>
 
         <article class="benchmark">
           <div class="photo">
-            <img src="assets/bench-3651-fish.png" alt="3651 고양이 바이츠 열빙어 동결건조 트릿 350g" />
+            <img src="assets/bench-costco-nutriplan-chicken.jpg" alt="코스트코 뉴트리플랜 동결건조 트릿 닭안심 300g" />
           </div>
           <div class="body">
-            <strong>3651 바이츠 열빙어</strong>
+            <strong>코스트코 뉴트리플랜 닭안심</strong>
+            <div class="price">22,490원</div>
+            <div class="meta">300g · 100g당 7,497원</div>
+          </div>
+        </article>
+
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-costco-superpaw-salmon.jpg" alt="코스트코 슈퍼포우 동결건조 트릿 연어 90g x 3" />
+          </div>
+          <div class="body">
+            <strong>코스트코 슈퍼포우 연어</strong>
+            <div class="price">25,790원</div>
+            <div class="meta">90g x 3 · 100g당 9,552원</div>
+          </div>
+        </article>
+
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-3651-fish.png" alt="쿠팡 3651 고양이 바이츠 열빙어 동결건조 트릿 350g" />
+          </div>
+          <div class="body">
+            <strong>쿠팡 3651 바이츠 열빙어</strong>
             <div class="price">19,900원</div>
-            <div class="meta">350g · 상품평 4,252개 · 한 달 200명+ 구매</div>
+            <div class="meta">350g · 상품평 4,252개</div>
           </div>
         </article>
 
         <article class="benchmark">
           <div class="photo">
-            <img src="assets/bench-healingtime-matatabi.png" alt="힐링타임 동결건조 고양이 마따따비 열매" />
+            <img src="assets/bench-healingtime-matatabi.png" alt="쿠팡 힐링타임 동결건조 고양이 마따따비 열매" />
           </div>
           <div class="body">
-            <strong>힐링타임 마따따비 열매</strong>
+            <strong>쿠팡 힐링타임 마따따비 열매</strong>
             <div class="price">16,500원</div>
-            <div class="meta">상품평 1,851개 · 1,000명+ 만족</div>
-          </div>
-        </article>
-
-        <article class="benchmark">
-          <div class="photo">
-            <img src="assets/bench-grovita-cube.jpg" alt="그로비타 고양이 동결건조 큐브 마따따비 간식 60g" />
-          </div>
-          <div class="body">
-            <strong>그로비타 동결건조 큐브</strong>
-            <div class="price">13,000원</div>
-            <div class="meta">60g · 10g당 2,167원 · 마따따비 검색 노출</div>
+            <div class="meta">상품평 1,851개 · 고양이 검색형</div>
           </div>
         </article>
       </div>
@@ -1051,7 +1084,39 @@
           </thead>
           <tbody>
             <tr>
-              <td>닭 500g</td>
+              <td>다이소 토핑</td>
+              <td>아르르 치킨 미니트릿</td>
+              <td class="num">10g</td>
+              <td class="num">1,000원</td>
+              <td class="num">10g당 1,000원</td>
+              <td>1,000원 체험형 밥꾸/토핑 SKU 기준.</td>
+            </tr>
+            <tr>
+              <td>다이소 원물</td>
+              <td>사조 벤티프리즈 동결건조 연어</td>
+              <td class="num">30g</td>
+              <td class="num">3,000원</td>
+              <td class="num">10g당 1,000원</td>
+              <td>다이소에서도 3,000원 원물 트릿이 운영되고 있어 2,000원 이상 SKU 가능성 확인.</td>
+            </tr>
+            <tr>
+              <td>코스트코 중용량</td>
+              <td>뉴트리플랜 동결건조 트릿 닭안심</td>
+              <td class="num">300g</td>
+              <td class="num">22,490원</td>
+              <td class="num">100g당 7,497원</td>
+              <td>코스트코 온라인몰 기준 동결건조 300g 중용량 가격대 확인.</td>
+            </tr>
+            <tr>
+              <td>코스트코 번들</td>
+              <td>슈퍼포우 동결건조 트릿 연어</td>
+              <td class="num">90g x 3</td>
+              <td class="num">25,790원</td>
+              <td class="num">100g당 9,552원</td>
+              <td>단품 대용량뿐 아니라 다팩 번들 구성이 코스트코형 패키지에 적합.</td>
+            </tr>
+            <tr>
+              <td>쿠팡 닭 500g</td>
               <td>칸타나 치킨 스몰텐더</td>
               <td class="num">500g</td>
               <td class="num">19,890원</td>
@@ -1059,7 +1124,7 @@
               <td>쿠팡 500g 기준가는 19,900원 전후로 형성.</td>
             </tr>
             <tr>
-              <td>생선 350g</td>
+              <td>쿠팡 생선 350g</td>
               <td>3651 바이츠 열빙어</td>
               <td class="num">350g</td>
               <td class="num">19,900원</td>
@@ -1067,7 +1132,7 @@
               <td>생선 원물은 닭보다 단위가를 높게 받을 수 있음.</td>
             </tr>
             <tr>
-              <td>생선 500g</td>
+              <td>쿠팡 생선 500g</td>
               <td>gorogoro 열빙어</td>
               <td class="num">500g</td>
               <td class="num">23,310원</td>
@@ -1371,6 +1436,10 @@
       </div>
       <ol class="source-list">
         <li><a href="https://www.yna.co.kr/view/AKR20260720026400030" target="_blank" rel="noopener">연합뉴스: 동원F&amp;B, 다이소 전용 펫간식 브랜드 '아르르 밥꾸' 출시</a></li>
+        <li><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078932" target="_blank" rel="noopener">다이소몰: 아르르 치킨 미니트릿 10g</a></li>
+        <li><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060201" target="_blank" rel="noopener">다이소몰: 사조 벤티프리즈 동결 건조 연어 30g</a></li>
+        <li><a href="https://www.costco.co.kr/BabyKidsToysPets/Pet-Supplies/Cat-Foods/Nutriplan-Freeze-Dried-Treats-Chicken-Tender-300g/p/683979" target="_blank" rel="noopener">코스트코 온라인몰: 뉴트리플랜 동결건조 트릿 닭안심 300g</a></li>
+        <li><a href="https://www.costco.co.kr/BabyKidsToysPets/Pet-Supplies/Dog-Foods/Super-Paw-Freeze-Dried-Treat-Salmon-90g-x-3PET/p/771218" target="_blank" rel="noopener">코스트코 온라인몰: 슈퍼포우 동결건조 트릿 연어 90g x 3</a></li>
         <li><a href="https://www.coupang.com/vp/products/8595978775?itemId=4040128243&vendorItemId=72024290734" target="_blank" rel="noopener">쿠팡: 힐링타임 동결건조 고양이 마따따비 열매</a></li>
         <li><a href="https://www.coupang.com/vp/products/8243083439?itemId=23721506002&vendorItemId=90822173529" target="_blank" rel="noopener">쿠팡: 그로비타 고양이전용 동결건조 큐브</a></li>
         <li><a href="https://www.coupang.com/vp/products/7977555430?itemId=22122361414&vendorItemId=89412143521" target="_blank" rel="noopener">쿠팡: 칸타나 동결건조 치킨 스몰텐더 500g</a></li>
