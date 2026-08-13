@@ -3,611 +3,1390 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OSP 중국산 동결건조 간식 채널별 소싱 검토안</title>
+  <title>OSP 상해 소싱 간식 채널 운영 전략</title>
   <style>
     :root {
-      --ink: #16201c;
-      --muted: #60706a;
-      --line: #d9e2dc;
-      --soft: #f5f8f5;
-      --paper: #fffdf8;
-      --green: #245c43;
-      --green-2: #e8f2ea;
-      --gold: #f5b84b;
-      --salmon: #e87757;
-      --blue: #416b86;
-      --shadow: 0 16px 42px rgba(30, 46, 37, 0.12);
+      --ink: #182233;
+      --muted: #647084;
+      --soft: #f4f6f8;
+      --line: #dfe5ed;
+      --brand: #006f73;
+      --brand-2: #ffcc33;
+      --accent: #e9493f;
+      --blue: #2f6fed;
+      --green: #2d8a62;
+      --orange: #f28d27;
+      --paper: #ffffff;
+      --shadow: 0 16px 40px rgba(24, 34, 51, 0.08);
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
-      background: #eef3ef;
+      font-family: "Pretendard", "Segoe UI", "Noto Sans KR", Arial, sans-serif;
       color: var(--ink);
-      font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", Arial, sans-serif;
-      letter-spacing: 0;
+      background: #eef2f5;
+      line-height: 1.55;
     }
 
-    a { color: inherit; }
+    a {
+      color: inherit;
+    }
 
     .page {
-      width: min(1180px, calc(100% - 40px));
-      margin: 30px auto 56px;
-      background: var(--paper);
-      border: 1px solid rgba(36, 92, 67, 0.16);
+      width: min(1180px, calc(100vw - 44px));
+      margin: 0 auto;
+      padding: 28px 0 72px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 380px;
+      padding: 44px 48px 40px;
+      border-radius: 8px;
+      color: #fff;
+      background:
+        linear-gradient(90deg, rgba(10, 31, 45, 0.92) 0%, rgba(10, 31, 45, 0.74) 48%, rgba(10, 31, 45, 0.26) 100%),
+        url("assets/osp-freeze-dried-sourcing-hero.png") center right / cover no-repeat;
       box-shadow: var(--shadow);
     }
 
-    header {
-      padding: 44px 52px 34px;
-      background:
-        linear-gradient(115deg, rgba(36, 92, 67, 0.94), rgba(32, 71, 66, 0.92)),
-        url("https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=1600&q=70");
-      background-size: cover;
-      background-position: center;
-      color: #fff;
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 7px;
+      background: linear-gradient(90deg, var(--brand-2), var(--brand), var(--accent));
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 690px;
     }
 
     .eyebrow {
-      font-size: 13px;
-      font-weight: 700;
-      opacity: 0.86;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       margin-bottom: 18px;
+      color: #fbdf67;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
     }
 
     h1 {
-      margin: 0;
-      max-width: 760px;
-      font-size: 38px;
-      line-height: 1.18;
-      font-weight: 800;
+      margin: 0 0 16px;
+      font-size: 42px;
+      line-height: 1.16;
+      letter-spacing: 0;
     }
-
-    .lead {
-      max-width: 820px;
-      margin: 18px 0 0;
-      font-size: 18px;
-      line-height: 1.65;
-      color: rgba(255,255,255,0.88);
-    }
-
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 28px;
-    }
-
-    .tag {
-      border: 1px solid rgba(255,255,255,0.3);
-      background: rgba(255,255,255,0.12);
-      border-radius: 999px;
-      padding: 8px 13px;
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    main { padding: 38px 52px 50px; }
-
-    section { margin-top: 42px; }
-    section:first-child { margin-top: 0; }
 
     h2 {
       margin: 0 0 18px;
-      font-size: 24px;
-      line-height: 1.25;
+      font-size: 25px;
+      letter-spacing: 0;
     }
 
     h3 {
       margin: 0 0 10px;
-      font-size: 17px;
+      font-size: 18px;
+      letter-spacing: 0;
     }
 
     p {
       margin: 0;
-      color: var(--muted);
-      line-height: 1.65;
     }
 
-    .summary {
+    .lead {
+      max-width: 650px;
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 17px;
+    }
+
+    .hero-metrics {
       display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 18px;
-      align-items: stretch;
-    }
-
-    .callout {
-      border-left: 6px solid var(--green);
-      background: #fff;
-      padding: 22px 24px;
-      box-shadow: 0 8px 22px rgba(31, 50, 42, 0.06);
-    }
-
-    .callout strong {
-      display: block;
-      font-size: 22px;
-      margin-bottom: 8px;
-      color: var(--green);
-    }
-
-    .mini-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 720px;
+      margin-top: 30px;
     }
 
     .metric {
-      background: var(--soft);
-      border: 1px solid var(--line);
-      padding: 17px 18px;
+      min-height: 86px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
     }
 
-    .metric b {
+    .metric strong {
       display: block;
+      margin-bottom: 4px;
+      color: #fff;
       font-size: 22px;
-      margin-bottom: 5px;
     }
 
     .metric span {
+      color: rgba(255, 255, 255, 0.74);
+      font-size: 12px;
+    }
+
+    .section {
+      margin-top: 24px;
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .section-note {
+      max-width: 520px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 26px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      color: #0d575a;
+      background: #e1f3f1;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .pill.yellow {
+      color: #725000;
+      background: #fff1b4;
+    }
+
+    .pill.red {
+      color: #8a2821;
+      background: #fde0dd;
+    }
+
+    .pill.blue {
+      color: #1b4a92;
+      background: #e1eaff;
+    }
+
+    .pill.gray {
+      color: #475166;
+      background: #edf1f5;
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .grid.cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid.cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid.cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .card.highlight {
+      border-color: rgba(0, 111, 115, 0.38);
+      background: #f3fbfa;
+    }
+
+    .card.warning {
+      border-color: rgba(233, 73, 63, 0.32);
+      background: #fff7f6;
+    }
+
+    .card h3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .card ul,
+    .checklist {
+      margin: 12px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .card li,
+    .checklist li {
+      position: relative;
+      padding-left: 16px;
+      color: #39465a;
+      font-size: 14px;
+    }
+
+    .card li + li,
+    .checklist li + li {
+      margin-top: 8px;
+    }
+
+    .card li::before,
+    .checklist li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--brand);
+    }
+
+    .strategy-map {
+      display: grid;
+      grid-template-columns: 1.05fr 1fr 1fr 1fr;
+      gap: 12px;
+    }
+
+    .channel {
+      display: flex;
+      min-height: 220px;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, #fff, #f7fafc);
+    }
+
+    .channel strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 20px;
+    }
+
+    .channel small {
+      display: block;
+      min-height: 44px;
       color: var(--muted);
       font-size: 13px;
-      line-height: 1.45;
+    }
+
+    .channel .price {
+      margin-top: 18px;
+      font-size: 24px;
+      font-weight: 900;
+      color: var(--brand);
+    }
+
+    .channel .desc {
+      margin-top: 8px;
+      color: #39465a;
+      font-size: 14px;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
-      background: #fff;
-      border: 1px solid var(--line);
       overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 13px;
     }
 
-    th, td {
-      padding: 13px 14px;
+    th,
+    td {
+      padding: 12px 11px;
       border-bottom: 1px solid var(--line);
       text-align: left;
-      vertical-align: middle;
-      font-size: 14px;
-      line-height: 1.45;
+      vertical-align: top;
     }
 
     th {
-      background: #edf4ee;
-      color: #284239;
+      color: #253149;
+      background: #f2f5f8;
+      font-size: 12px;
       font-weight: 800;
     }
 
-    tr:last-child td { border-bottom: 0; }
-    td.num, th.num { text-align: right; white-space: nowrap; }
+    tr:last-child td {
+      border-bottom: 0;
+    }
 
-    .pill {
-      display: inline-block;
-      border-radius: 999px;
-      padding: 5px 10px;
-      font-size: 12px;
-      font-weight: 800;
-      background: var(--green-2);
-      color: var(--green);
+    td.num,
+    th.num {
+      text-align: right;
       white-space: nowrap;
     }
 
-    .pill.warn {
-      background: #fff2df;
-      color: #9d5b16;
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 8px;
     }
 
-    .pill.blue {
-      background: #e7f0f5;
-      color: var(--blue);
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .card {
-      background: #fff;
-      border: 1px solid var(--line);
-      box-shadow: 0 10px 24px rgba(31, 50, 42, 0.06);
-      overflow: hidden;
-    }
-
-    .card img {
-      display: block;
-      width: 100%;
-      aspect-ratio: 4 / 3;
-      object-fit: contain;
-      background: #f7f7f3;
-      padding: 12px;
-    }
-
-    .card-body {
-      padding: 16px 17px 18px;
-    }
-
-    .card small {
-      display: block;
-      color: var(--muted);
-      margin-top: 10px;
-      line-height: 1.45;
-    }
-
-    .two-col {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px;
-    }
-
-    .panel {
-      background: #fff;
-      border: 1px solid var(--line);
-      padding: 22px;
-    }
-
-    .checklist {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px 18px;
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-
-    .checklist li {
-      position: relative;
-      padding-left: 24px;
-      color: var(--muted);
-      line-height: 1.55;
+    .math-note {
+      margin-top: 12px;
+      padding: 14px 16px;
+      border-left: 4px solid var(--brand);
+      background: #eef9f8;
+      color: #34445a;
       font-size: 14px;
     }
 
-    .checklist li::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 7px;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--gold);
-      box-shadow: 0 0 0 4px rgba(245,184,75,0.16);
+    .benchmark-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .benchmark {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .benchmark .photo {
+      display: grid;
+      height: 170px;
+      place-items: center;
+      background: #f4f6f8;
+    }
+
+    .benchmark img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 10px;
+    }
+
+    .benchmark .body {
+      padding: 14px;
+    }
+
+    .benchmark strong {
+      display: block;
+      min-height: 44px;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .benchmark .price {
+      margin-top: 10px;
+      color: var(--accent);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .benchmark .meta {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .sku-table td:first-child {
+      width: 15%;
+      font-weight: 800;
     }
 
     .decision {
       display: grid;
       grid-template-columns: 0.9fr 1.1fr;
-      gap: 22px;
-      background: #203f35;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .callout {
+      padding: 20px;
+      border-radius: 8px;
       color: #fff;
-      padding: 26px;
-      align-items: center;
+      background: linear-gradient(135deg, #004f52, #137f76);
     }
 
-    .decision p { color: rgba(255,255,255,0.82); }
-
-    .decision-list {
-      display: grid;
-      gap: 10px;
+    .callout h3 {
+      color: #fff;
     }
 
-    .decision-item {
-      background: rgba(255,255,255,0.11);
-      border: 1px solid rgba(255,255,255,0.16);
-      padding: 13px 14px;
+    .callout p {
+      color: rgba(255, 255, 255, 0.84);
       font-size: 14px;
-      line-height: 1.45;
     }
 
-    .sources {
-      padding-top: 18px;
-      border-top: 1px solid var(--line);
+    .source-list {
+      margin: 0;
+      padding-left: 18px;
       color: var(--muted);
       font-size: 12px;
-      line-height: 1.6;
     }
 
-    .sources a { color: var(--green); font-weight: 700; }
-
-    @media (max-width: 900px) {
-      .page { width: 100%; margin: 0; }
-      header, main { padding-left: 24px; padding-right: 24px; }
-      h1 { font-size: 30px; }
-      .summary, .two-col, .decision { grid-template-columns: 1fr; }
-      .cards { grid-template-columns: 1fr; }
-      .mini-grid, .checklist { grid-template-columns: 1fr; }
-      table { display: block; overflow-x: auto; white-space: nowrap; }
+    .source-list li + li {
+      margin-top: 5px;
     }
 
     @media print {
-      body { background: #fff; }
-      .page { width: 100%; margin: 0; box-shadow: none; border: 0; }
-      header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-      .card, .panel, .callout, .metric { break-inside: avoid; }
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        padding: 0;
+      }
+
+      .section,
+      .hero {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+    }
+
+    @media (max-width: 980px) {
+      .hero {
+        padding: 34px 28px;
+      }
+
+      .hero-metrics,
+      .grid.cols-4,
+      .strategy-map,
+      .benchmark-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .grid.cols-3,
+      .grid.cols-2,
+      .decision {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(100vw - 24px, 1180px);
+        padding-top: 12px;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 28px 20px 32px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+
+      .section {
+        padding: 20px;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-note {
+        margin-top: 8px;
+      }
+
+      .hero-metrics,
+      .grid.cols-4,
+      .strategy-map,
+      .benchmark-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="page">
-    <header>
-      <div class="eyebrow">OSP 신제품 소싱 검토 · Shanghai Pet Fair 2026</div>
-      <h1>중국산 동결건조 간식 채널별 운영 가능성 검토안</h1>
-      <p class="lead">
-        다이소 소용량과 쿠팡·코스트코 대용량을 동시에 검토하되, 동일 원물을 활용하더라도
-        채널별 규격·패키지·가격 메시지를 분리하는 방향으로 설계한다.
-      </p>
-      <div class="meta">
-        <span class="tag">보고 기준일 2026.08.13</span>
-        <span class="tag">다이소 마진 51%</span>
-        <span class="tag">당사 목표 마진 20~30%</span>
-        <span class="tag">동결건조 간식 / 토핑 겸용</span>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">Shanghai Pet Fair Sourcing Plan · 2026</div>
+        <h1>OSP 상해 소싱 간식 채널 운영 전략</h1>
+        <p class="lead">
+          다이소 저가 소용량, 쿠팡·코스트코 500g 대용량, 네이버 브랜드 확장 판매를 전제로
+          동결건조 토핑뿐 아니라 시니어 소프트 트릿과 저칼로리 노즈워크 미니 트릿까지 확장 검토한 보고안입니다.
+        </p>
+        <div class="hero-metrics">
+          <div class="metric">
+            <strong>1,000원</strong>
+            <span>다이소 진입 최저가</span>
+          </div>
+          <div class="metric">
+            <strong>2축</strong>
+            <span>동결건조 토핑 + 기능성 트릿</span>
+          </div>
+          <div class="metric">
+            <strong>35%</strong>
+            <span>쿠팡 채널 요구 마진</span>
+          </div>
+          <div class="metric">
+            <strong>20~30%</strong>
+            <span>당사 목표 마진</span>
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="summary">
-        <div class="callout">
-          <strong>결론: 가능성은 있으나, 원가 허용선이 매우 타이트함</strong>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill yellow">Executive Summary</span>
+          <h2>핵심 판단</h2>
+        </div>
+        <p class="section-note">
+          현재 시장은 1,000원 체험형과 500g 대용량 가성비형이 동시에 움직이고 있습니다.
+          OSP는 사료회사라는 강점을 활용해 토핑·급여 경험을 연결하는 쪽이 유리합니다.
+        </p>
+      </div>
+
+      <div class="grid cols-3">
+        <article class="card highlight">
+          <h3>1. 다이소는 소용량 체험형</h3>
           <p>
-            다이소 1,000원 상품은 당사 총원가가 312~356원 안에 들어와야 하므로
-            10~15g 소포장이 현실적이다. 쿠팡·코스트코는 500g 전후 대용량으로
-            2만원 전후 가격 경쟁력을 확보해야 한다.
+            다이소는 10~20g, 1,000원·2,000원 중심으로 유지합니다.
+            동결건조 원물 단품보다 사료에 뿌리는 토핑·밥꾸 콘셉트가 OSP 정체성과 맞습니다.
           </p>
-        </div>
-        <div class="mini-grid">
-          <div class="metric">
-            <b>10~15g</b>
-            <span>다이소 1,000원 라인 권장 용량</span>
-          </div>
-          <div class="metric">
-            <b>20~25g</b>
-            <span>다이소 2,000원 라인 권장 용량</span>
-          </div>
-          <div class="metric">
-            <b>500g</b>
-            <span>쿠팡·코스트코 대용량 기준 SKU</span>
-          </div>
-          <div class="metric">
-            <b>19,900원~</b>
-            <span>온라인·벌크형 가격 경쟁 기준선</span>
-          </div>
-        </div>
-      </section>
+        </article>
+        <article class="card highlight">
+          <h3>2. 쿠팡은 500g과 200g 투트랙</h3>
+          <p>
+            대용량은 17,900~19,900원대 500g 경쟁이 강하고, 노즈워크 미니 트릿은 200g 12,900원대 프리미엄형으로 접근합니다.
+            19,900원 500g 기준 당사 총원가는 8,231~9,407원 안에 들어와야 합니다.
+          </p>
+        </article>
+        <article class="card warning">
+          <h3>3. 시니어는 선제 진입</h3>
+          <p>
+            시니어 소프트 트릿은 아직 시장이 작지만 반려동물 고령화와 건강관리 니즈로 성장 명분이 뚜렷합니다.
+            OSP는 사료회사 이미지와 연결해 선점형 SKU로 검토할 수 있습니다.
+          </p>
+        </article>
+      </div>
+    </section>
 
-      <section>
-        <h2>1. 채널별 운영 타깃</h2>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">Channel Strategy</span>
+          <h2>1. 채널별 운영타깃</h2>
+        </div>
+        <p class="section-note">
+          같은 원료를 쓰더라도 채널별 소비 목적이 다르므로 용량, 메시지, 패키지, 가격 기준을 다르게 가져갑니다.
+        </p>
+      </div>
+
+      <div class="strategy-map">
+        <article class="channel">
+          <div>
+            <strong>다이소 / 오프라인</strong>
+            <small>저가 체험, 충동구매, 사료 구매 동반 증정</small>
+            <div class="price">1,000~2,000원</div>
+            <p class="desc">10~20g 소용량. 밥꾸·토핑·크럼블형 중심. 원물 단품보다 “사료에 뿌리는 간식”으로 차별화.</p>
+          </div>
+          <span class="pill yellow">Entry SKU</span>
+        </article>
+
+        <article class="channel">
+          <div>
+            <strong>쿠팡</strong>
+            <small>검색 노출, 리뷰 축적, 500g 대용량 가격 경쟁</small>
+            <div class="price">17,900~21,900원</div>
+            <p class="desc">생선믹스 500g과 노즈워크 미니 200g을 우선 테스트. 마따따비는 고양이 검색형 SKU로 별도 검토.</p>
+          </div>
+          <span class="pill red">Scale SKU</span>
+        </article>
+
+        <article class="channel">
+          <div>
+            <strong>코스트코 / 대리점</strong>
+            <small>대용량 가성비, 번들 가치, 오프라인 납품</small>
+            <div class="price">19,900~22,900원</div>
+            <p class="desc">쿠팡과 같은 용량·가격대 가능. 생선믹스, 노즈워크 500g, 시니어 소프트 600g은 전용 패키지 필요.</p>
+          </div>
+          <span class="pill blue">Club SKU</span>
+        </article>
+
+        <article class="channel">
+          <div>
+            <strong>네이버</strong>
+            <small>브랜드 스토리, 전 제품 전개, 리뷰·검색 최적화</small>
+            <div class="price">전 라인 운영</div>
+            <p class="desc">코스트코 전용 제품 제외. 소용량, 대용량, 마따따비, 토핑형, 시니어·노즈워크 라인을 모두 취급.</p>
+          </div>
+          <span class="pill gray">Brand Hub</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">Product Strategy</span>
+          <h2>2. 제품별 운영타깃</h2>
+        </div>
+        <p class="section-note">
+          현재 논의 제품은 생선믹스 크럼블, 사료 토핑, 마따따비입니다. 세 제품 모두 “간식”이지만 구매 동기가 다릅니다.
+        </p>
+      </div>
+
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>생선믹스 크럼블 <span class="pill red">Main</span></h3>
+          <ul>
+            <li>쿠팡·코스트코 기준 300~500g 대용량.</li>
+            <li>열빙어, 북어, 연어, 흰살생선 등 생선 원물 믹스 검토.</li>
+            <li>원물 통 형태보다 크럼블이면 파손 이슈를 장점으로 전환 가능.</li>
+            <li>메시지: 사료 토핑, 기호성 보완, 단백질 간식.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>사료 토핑 <span class="pill yellow">OSP Fit</span></h3>
+          <ul>
+            <li>다이소·오프라인 10~20g 소용량에 적합.</li>
+            <li>사료회사 OSP의 강점과 가장 잘 맞는 밥꾸형 SKU.</li>
+            <li>사료 구매 사은품, 샘플팩, 묶음 증정으로 활용 가능.</li>
+            <li>분말·크럼블·미니큐브 중 생산 안정성과 먼지 발생량 확인 필요.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>마따따비 <span class="pill blue">Cat Search</span></h3>
+          <ul>
+            <li>건조 열매와 동결건조 큐브를 모두 검토.</li>
+            <li>단독 제품, 생선 단백질 사이에 마따따비를 넣은 믹스형 가능.</li>
+            <li>쿠팡에서 검색형 상품으로 테스트 가치가 큼.</li>
+            <li>기호성 우려는 낮게 보되, 원산지·원료명·표시 문구 검증 필요.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill blue">New Opportunity</span>
+          <h2>3. 확장 간식 아이디어</h2>
+        </div>
+        <p class="section-note">
+          동결건조 외에 상해 박람회 또는 별도 직수입으로 검토할 만한 카테고리입니다. 모두 OSP의 사료회사 이미지와 연결하기 좋습니다.
+        </p>
+      </div>
+
+      <div class="grid cols-3">
+        <article class="card highlight">
+          <h3>시니어 소프트 트릿 <span class="pill yellow">Growth</span></h3>
+          <ul>
+            <li>포지션: 노견도 먹기 쉬운 부드러운 간식.</li>
+            <li>시장 판단: 아직 대형 카테고리는 아니지만 반려견 고령화와 건강관리 니즈로 성장 가능성이 높음.</li>
+            <li>검색 키워드: 노견간식, 시니어 강아지 간식, 말랑한 강아지 간식, 관절 간식.</li>
+            <li>권장 원료: 북어, 연어, 닭가슴살, 고구마, 단호박, 콜라겐, 유산균.</li>
+            <li>채널: 쿠팡·네이버 본품, 다이소 체험팩, 코스트코·대리점 대용량.</li>
+          </ul>
+        </article>
+
+        <article class="card highlight">
+          <h3>저칼로리 노즈워크 미니 트릿 <span class="pill red">Demand</span></h3>
+          <ul>
+            <li>포지션: 하루 여러 번 줘도 부담 적은 훈련·칭찬·노즈워크 간식.</li>
+            <li>시장 판단: 이미 쿠팡/네이버에서 검색형 카테고리가 형성되어 있으며 경쟁도 존재.</li>
+            <li>검색 키워드: 노즈워크, 훈련용, 미니, 저칼로리, 칭찬간식, 대용량.</li>
+            <li>권장 원료: 닭간+단호박, 황태+고구마, 오리+귀리, 연어+야채.</li>
+            <li>채널: 쿠팡 200g 본품, 코스트코·대리점 500g 대용량, 다이소 20~50g 체험팩.</li>
+          </ul>
+        </article>
+
+        <article class="card highlight">
+          <h3>프리미엄 오일 토퍼 <span class="pill blue">Import</span></h3>
+          <ul>
+            <li>포지션: 사료에 1펌프 뿌리는 액상 토핑제.</li>
+            <li>시장 판단: 간식보다는 영양제·토퍼 중간 카테고리로 반복구매 가능성이 있음.</li>
+            <li>소싱 방향: 상해 박람회 핵심 품목보다는 노르웨이·알래스카 등 원료 스토리가 있는 직수입 검토가 적합.</li>
+            <li>권장 원료: 연어오일, 피쉬오일, 청어오일, 정어리/멸치 오일, rTG 오메가3.</li>
+            <li>주의사항: 산패, 어취, 누유, 펌프 불량, 산가·과산화물가, EPA/DHA 함량 확인.</li>
+          </ul>
+        </article>
+      </div>
+
+      <h3 style="margin-top: 24px;">시장 관심도 보고 문안</h3>
+      <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>채널</th>
-              <th>역할</th>
-              <th>권장 규격</th>
-              <th>목표 소비자가</th>
-              <th>운영 포인트</th>
+              <th>구분</th>
+              <th>시장 형성도</th>
+              <th>근거 프록시</th>
+              <th>보고 문안</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><b>다이소 / 오프라인</b></td>
-              <td>체험·입문</td>
-              <td>10~15g / 20~25g</td>
-              <td>1,000원 / 2,000원</td>
-              <td><span class="pill">소용량</span> <span class="pill">증량감</span> <span class="pill">충동구매</span></td>
+              <td>시니어 소프트 트릿</td>
+              <td>초기~중간</td>
+              <td>노견/시니어/말랑한 간식 키워드와 리뷰 1,000개 이상 상품 존재.</td>
+              <td>아직 시장은 작지만 반려동물 고령화와 건강관리 니즈 확대에 따라 성장 가능성이 높은 초기 카테고리.</td>
             </tr>
             <tr>
-              <td><b>쿠팡</b></td>
-              <td>반복구매</td>
+              <td>저칼로리 노즈워크 미니 트릿</td>
+              <td>중간~높음</td>
+              <td>저칼로리, 노즈워크, 훈련용, 칭찬간식 키워드가 결합된 상품과 리뷰 축적 확인.</td>
+              <td>이미 반복구매 시장이 형성되어 있어 가격·기호성·미니 사이즈 차별화로 진입 가능한 카테고리.</td>
+            </tr>
+            <tr>
+              <td>프리미엄 오일 토퍼</td>
+              <td>초기~중간</td>
+              <td>오메가3, 연어오일, 피쉬오일 키워드 상품은 있으나 액상 사료 토퍼 포지션은 상대적으로 여지가 있음.</td>
+              <td>상해 박람회 메인 소싱보다 직수입 또는 프리미엄 원료 기반으로 별도 검토할 만한 인접 카테고리.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="math-note">
+        검색량 증가라고 단정하려면 네이버 데이터랩 또는 키워드도구 캡처가 필요합니다.
+        본 보고서에서는 검색 키워드 노출, 쿠팡 리뷰 축적, 반려동물 고령화 자료를 근거로 “관심도와 성장 가능성이 확인되는 카테고리”로 표현하는 것이 안전합니다.
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">Margin Reverse</span>
+          <h2>4. 채널별 원가 역산</h2>
+        </div>
+        <p class="section-note">
+          부가세 포함 소비자가 기준으로 역산했습니다. 원가는 상품 매입가뿐 아니라 포장, 수입, 검사, 국내 물류까지 포함한 총원가 기준으로 봐야 합니다.
+        </p>
+      </div>
+
+      <h3>다이소 기준 역산</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>판매가</th>
+              <th class="num">VAT 제외 매출</th>
+              <th class="num">다이소 51% 제외 후 당사 공급매출</th>
+              <th class="num">당사 20% 마진 가능 총원가</th>
+              <th class="num">당사 30% 마진 가능 총원가</th>
+              <th>운영 해석</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1,000원</td>
+              <td class="num">909원</td>
+              <td class="num">445원</td>
+              <td class="num">356원</td>
+              <td class="num">312원</td>
+              <td>10g 전후 토핑·크럼블 샘플형만 현실적.</td>
+            </tr>
+            <tr>
+              <td>2,000원</td>
+              <td class="num">1,818원</td>
+              <td class="num">891원</td>
+              <td class="num">713원</td>
+              <td class="num">624원</td>
+              <td>15~20g 제품 또는 기능성 콘셉트 소용량 가능.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="math-note">
+        산식: 소비자가 ÷ 1.1 × 49% = 당사 공급매출, 공급매출 × 70~80% = 허용 총원가.
+        다이소는 마진 요구가 높기 때문에 고가 원물보다는 파손 원물, 크럼블, 미니 토핑팩으로 접근하는 편이 안전합니다.
+      </div>
+
+      <h3 style="margin-top: 26px;">쿠팡·코스트코 500g 기준 역산</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>500g 판매가</th>
+              <th class="num">VAT 제외 매출</th>
+              <th class="num">쿠팡 35% 제외 후 당사 공급매출</th>
+              <th class="num">당사 20% 마진 가능 총원가</th>
+              <th class="num">당사 30% 마진 가능 총원가</th>
+              <th class="num">허용 총원가 / 10g</th>
+              <th>운영 해석</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>17,900원</td>
+              <td class="num">16,273원</td>
+              <td class="num">10,577원</td>
+              <td class="num">8,462원</td>
+              <td class="num">7,404원</td>
+              <td class="num">148~169원</td>
+              <td>저가 경쟁 대응가. 생산 단가가 매우 낮아야 가능.</td>
+            </tr>
+            <tr>
+              <td>19,900원</td>
+              <td class="num">18,091원</td>
+              <td class="num">11,759원</td>
+              <td class="num">9,407원</td>
+              <td class="num">8,231원</td>
+              <td class="num">165~188원</td>
+              <td>쿠팡 핵심 목표가. 생선믹스 크럼블 1차 검증 기준.</td>
+            </tr>
+            <tr>
+              <td>21,900원</td>
+              <td class="num">19,909원</td>
+              <td class="num">12,941원</td>
+              <td class="num">10,353원</td>
+              <td class="num">9,059원</td>
+              <td class="num">181~207원</td>
+              <td>리뷰와 상세페이지 설득력이 있으면 안정권.</td>
+            </tr>
+            <tr>
+              <td>22,900원</td>
+              <td class="num">20,818원</td>
+              <td class="num">13,532원</td>
+              <td class="num">10,825원</td>
+              <td class="num">9,472원</td>
+              <td class="num">189~217원</td>
+              <td>코스트코·대리점 납품용 패키지에 적합.</td>
+            </tr>
+            <tr>
+              <td>24,900원</td>
+              <td class="num">22,636원</td>
+              <td class="num">14,714원</td>
+              <td class="num">11,771원</td>
+              <td class="num">10,300원</td>
+              <td class="num">206~235원</td>
+              <td>마따따비 믹스나 프리미엄 원물 구성일 때 검토.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="math-note">
+        산식: 소비자가 ÷ 1.1 × 65% = 당사 공급매출, 공급매출 × 70~80% = 허용 총원가.
+        19,900원 500g 제품은 총원가가 8,231~9,407원에 들어와야 하므로, 상해 박람회에서는 FOB 기준보다 포장·검사·물류를 포함한 landed cost를 반드시 확인해야 합니다.
+      </div>
+
+      <h3 style="margin-top: 26px;">신규 간식 SKU 권장 중량·가격</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>제품</th>
+              <th>채널</th>
+              <th>권장 중량</th>
+              <th>권장 판매가</th>
+              <th class="num">허용 총원가</th>
+              <th>운영 해석</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>시니어 소프트 트릿</td>
+              <td>쿠팡·네이버</td>
+              <td>300~320g</td>
+              <td>9,900~11,900원</td>
+              <td class="num">약 4,500~5,150원<br />10,900원 기준</td>
+              <td>가성비형 본품. 너무 비싸면 일반 말랑 져키와 비교되어 전환이 약해질 수 있음.</td>
+            </tr>
+            <tr>
+              <td>시니어 소프트 트릿</td>
+              <td>코스트코·대리점</td>
+              <td>600g</td>
+              <td>15,900~17,900원</td>
+              <td class="num">약 6,990~7,990원<br />16,900원 기준</td>
+              <td>대용량 가성비 SKU. 부드러운 식감과 시니어 메시지로 차별화.</td>
+            </tr>
+            <tr>
+              <td>저칼로리 노즈워크 미니 트릿</td>
+              <td>쿠팡·네이버</td>
+              <td>200g</td>
+              <td>12,900~13,900원</td>
+              <td class="num">약 5,330~6,100원<br />12,900원 기준</td>
+              <td>프리미엄형 본품. 1알 1~2kcal, 미니 사이즈, 향 원료가 핵심.</td>
+            </tr>
+            <tr>
+              <td>저칼로리 노즈워크 미니 트릿</td>
+              <td>쿠팡·코스트코·대리점</td>
               <td>500g</td>
               <td>19,900~22,900원</td>
-              <td><span class="pill blue">10g당 가격</span> <span class="pill blue">리뷰 확보</span></td>
+              <td class="num">약 8,230~9,400원<br />19,900원 기준</td>
+              <td>대용량 반복구매 SKU. 저가 1kg 큐브 간식과 정면 가격 경쟁은 피해야 함.</td>
             </tr>
             <tr>
-              <td><b>코스트코</b></td>
-              <td>벌크·가성비</td>
-              <td>500g 이상</td>
-              <td>21,900~24,900원</td>
-              <td><span class="pill warn">대용량 체감</span> <span class="pill warn">버라이어티팩</span></td>
+              <td>프리미엄 오일 토퍼</td>
+              <td>쿠팡·네이버</td>
+              <td>120ml / 250~300ml</td>
+              <td>19,900~34,900원</td>
+              <td class="num">소싱 방식별 별도 산정</td>
+              <td>직수입·프리미엄 원료형. 노르웨이/알래스카 등 원료 스토리 확보 시 가격 방어 가능.</td>
             </tr>
             <tr>
-              <td><b>네이버</b></td>
-              <td>브랜드 설명형</td>
-              <td>50~150g</td>
-              <td>별도 검토</td>
-              <td><span class="pill">QC</span> <span class="pill">원료 스토리</span> <span class="pill">차별화 SKU</span></td>
+              <td>체험팩</td>
+              <td>다이소·오프라인</td>
+              <td>20g / 40~50g</td>
+              <td>1,000원 / 2,000원</td>
+              <td class="num">약 312~713원</td>
+              <td>시장 반응 확인용. 본품 구매 전환을 위한 맛보기 SKU로 운영.</td>
             </tr>
           </tbody>
         </table>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2>2. 다이소 기준 역산 원가</h2>
-        <p style="margin-bottom: 14px;">
-          전제: 소비자가 VAT 포함, 다이소 유통마진 51%, 당사 목표 마진 20~30%.
-          당사 총원가는 제품 원가, 포장, 통관·검사, 국내 물류를 포함한 관리 기준으로 본다.
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">Benchmark</span>
+          <h2>5. 경쟁사 벤치마크</h2>
+        </div>
+        <p class="section-note">
+          쿠팡은 실제 노출 상품을 중심으로 봤고, 다이소는 동원F&B 아르르 밥꾸 출시 사례를 기준점으로 잡았습니다.
+          신규 아이디어는 리뷰 축적 상품과 가격대를 함께 확인했습니다.
         </p>
+      </div>
+
+      <div class="benchmark-grid">
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-daiso-arrre.jpg" alt="다이소 동원F&B 아르르 밥꾸 동결건조 간식" />
+          </div>
+          <div class="body">
+            <strong>동원F&amp;B 아르르 밥꾸</strong>
+            <div class="price">1,000원</div>
+            <div class="meta">다이소 전용 16종, 소용량 밥꾸형</div>
+          </div>
+        </article>
+
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-kantana-chicken.jpg" alt="칸타나 동결건조 치킨 스몰텐더 500g" />
+          </div>
+          <div class="body">
+            <strong>칸타나 치킨 스몰텐더</strong>
+            <div class="price">19,890원</div>
+            <div class="meta">500g · 10g당 398원 · 쿠팡 노출</div>
+          </div>
+        </article>
+
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-3651-fish.png" alt="3651 고양이 바이츠 열빙어 동결건조 트릿 350g" />
+          </div>
+          <div class="body">
+            <strong>3651 바이츠 열빙어</strong>
+            <div class="price">19,900원</div>
+            <div class="meta">350g · 상품평 4,252개 · 한 달 200명+ 구매</div>
+          </div>
+        </article>
+
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-healingtime-matatabi.png" alt="힐링타임 동결건조 고양이 마따따비 열매" />
+          </div>
+          <div class="body">
+            <strong>힐링타임 마따따비 열매</strong>
+            <div class="price">16,500원</div>
+            <div class="meta">상품평 1,851개 · 1,000명+ 만족</div>
+          </div>
+        </article>
+
+        <article class="benchmark">
+          <div class="photo">
+            <img src="assets/bench-grovita-cube.jpg" alt="그로비타 고양이 동결건조 큐브 마따따비 간식 60g" />
+          </div>
+          <div class="body">
+            <strong>그로비타 동결건조 큐브</strong>
+            <div class="price">13,000원</div>
+            <div class="meta">60g · 10g당 2,167원 · 마따따비 검색 노출</div>
+          </div>
+        </article>
+      </div>
+
+      <h3 style="margin-top: 24px;">가격 벤치마크 요약</h3>
+      <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>소비자가</th>
-              <th class="num">당사 매출 추정</th>
-              <th class="num">당사 20% 마진 시 허용 원가</th>
-              <th class="num">당사 30% 마진 시 허용 원가</th>
-              <th>판단</th>
+              <th>구분</th>
+              <th>상품 예시</th>
+              <th class="num">용량</th>
+              <th class="num">판매가</th>
+              <th class="num">단위가</th>
+              <th>시사점</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><b>1,000원</b></td>
-              <td class="num">약 445원</td>
-              <td class="num">약 356원</td>
-              <td class="num">약 312원</td>
-              <td>10~15g 소포장 중심. 20g은 품질 저하 우려</td>
+              <td>닭 500g</td>
+              <td>칸타나 치킨 스몰텐더</td>
+              <td class="num">500g</td>
+              <td class="num">19,890원</td>
+              <td class="num">10g당 398원</td>
+              <td>쿠팡 500g 기준가는 19,900원 전후로 형성.</td>
             </tr>
             <tr>
-              <td><b>2,000원</b></td>
-              <td class="num">약 891원</td>
-              <td class="num">약 713원</td>
-              <td class="num">약 624원</td>
-              <td>20~25g 권장. 원물에 따라 30g까지 검토</td>
+              <td>생선 350g</td>
+              <td>3651 바이츠 열빙어</td>
+              <td class="num">350g</td>
+              <td class="num">19,900원</td>
+              <td class="num">10g당 569원</td>
+              <td>생선 원물은 닭보다 단위가를 높게 받을 수 있음.</td>
+            </tr>
+            <tr>
+              <td>생선 500g</td>
+              <td>gorogoro 열빙어</td>
+              <td class="num">500g</td>
+              <td class="num">23,310원</td>
+              <td class="num">10g당 466원</td>
+              <td>500g 생선믹스는 21,900~24,900원까지 테스트 가능.</td>
+            </tr>
+            <tr>
+              <td>북어 300g</td>
+              <td>테비토퍼 황금북어</td>
+              <td class="num">300g</td>
+              <td class="num">18,700원</td>
+              <td class="num">10g당 623원</td>
+              <td>북어는 토핑·기호성 키워드로 프리미엄 포지션 가능.</td>
+            </tr>
+            <tr>
+              <td>마따따비</td>
+              <td>힐링타임 마따따비 열매</td>
+              <td class="num">1개입</td>
+              <td class="num">16,500원</td>
+              <td class="num">-</td>
+              <td>동결건조 원물보다 검색·행동 유도형 카테고리로 봐야 함.</td>
+            </tr>
+            <tr>
+              <td>시니어 소프트</td>
+              <td>퍼피아이 시니어소프트 관절영양롤</td>
+              <td class="num">약 600g</td>
+              <td class="num">10,600원</td>
+              <td class="num">10g당 177원</td>
+              <td>노견·말랑한 간식 니즈가 리뷰 1,400개 이상 상품으로 확인됨.</td>
+            </tr>
+            <tr>
+              <td>노즈워크 미니</td>
+              <td>펫생각 하루조이 미니 저칼로리 노즈워크</td>
+              <td class="num">200g</td>
+              <td class="num">12,800원</td>
+              <td class="num">10g당 640원</td>
+              <td>저칼로리·훈련·칭찬 간식 키워드가 결합된 프리미엄형 포지션.</td>
+            </tr>
+            <tr>
+              <td>노즈워크 대용량</td>
+              <td>목우촌 펫9단 촉촉 큐브 트릿</td>
+              <td class="num">1kg</td>
+              <td class="num">11,980원</td>
+              <td class="num">10g당 120원</td>
+              <td>저가 대용량 시장은 존재하나, 저칼로리 미니 트릿과 포지션 분리 필요.</td>
+            </tr>
+            <tr>
+              <td>오일 토퍼</td>
+              <td>브릴리언트 연어오일 / 스카가 피쉬오일 등</td>
+              <td class="num">250~300ml</td>
+              <td class="num">약 22,000~34,800원</td>
+              <td class="num">10ml당 700~1,400원대</td>
+              <td>액상 오메가3 시장은 존재하나, 사료 토퍼형 프리미엄 포지션으로 재정의 가능.</td>
             </tr>
           </tbody>
         </table>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2>3. 경쟁사 벤치마크</h2>
-        <div class="cards">
-          <article class="card">
-            <img src="https://img9.yna.co.kr/etc/inner/KR/2026/07/20/AKR20260720026400030_01_i_P4.jpg" alt="동원F&B 아르르 다이소 밥꾸 간식 16종 제품 이미지" />
-            <div class="card-body">
-              <h3>동원F&B 아르르 밥·꾸</h3>
-              <p>다이소 1,000원 소용량 라인. 동결건조 원물트릿, 과일칩, 요거트큐브, 쌀과자 등 16종 구성.</p>
-              <small>시사점: 다이소에서는 1,000원·소용량·밥토핑 메시지가 이미 소비자에게 노출됨.</small>
-            </div>
-          </article>
-          <article class="card">
-            <img src="https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/prod/5b65bb2f-89ea-4821-b5e1-4f2462bd76f4_fixing_v2.png" alt="3651 바이츠 동결건조 닭가슴살 500g 제품 이미지" />
-            <div class="card-body">
-              <h3>3651 바이츠 500g</h3>
-              <p>쿠팡 대용량 동결건조 벤치마크. 500g 대용량과 10g당 가격 경쟁력이 핵심.</p>
-              <small>시사점: 쿠팡은 300g보다 500g 기준으로 가격 경쟁력을 맞춰야 함.</small>
-            </div>
-          </article>
-          <article class="card">
-            <img src="https://cdn.imweb.me/thumbnail/20260330/074cff16dd4d7.jpg" alt="뉴트리플랜 동결건조 닭안심 300g 제품 이미지" />
-            <div class="card-body">
-              <h3>뉴트리플랜 닭안심 300g</h3>
-              <p>코스트코·대용량 채널 참고 제품. 300g 이상 벌크형 동결건조 간식으로 노출.</p>
-              <small>시사점: 중국산은 동일 용량보다 증량 또는 가격 우위가 필요.</small>
-            </div>
-          </article>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">SKU Plan</span>
+          <h2>6. 최종 SKU 포트폴리오 제안</h2>
         </div>
-      </section>
+        <p class="section-note">
+          순위로 줄 세우기보다는 제품의 역할과 채널 목적을 나눠 보는 방식입니다.
+          상해 박람회에서는 아래 SKU를 기준으로 단가, MOQ, 포장 가능성, 원산지 표시 리스크를 비교하면 됩니다.
+        </p>
+      </div>
 
-      <section>
-        <h2>4. SKU 제안</h2>
-        <table>
+      <div class="grid cols-4" style="margin-bottom: 18px;">
+        <article class="card highlight">
+          <h3>매출 검증형</h3>
+          <p>쿠팡·코스트코에서 바로 가격과 리뷰를 검증할 수 있는 대용량 SKU.</p>
+        </article>
+        <article class="card highlight">
+          <h3>OSP 연계형</h3>
+          <p>사료회사 이미지와 연결해 브랜드 차별화가 가능한 토핑·시니어 SKU.</p>
+        </article>
+        <article class="card">
+          <h3>프리미엄 옵션형</h3>
+          <p>직수입 또는 원료 스토리로 가격 방어가 필요한 고부가 SKU.</p>
+        </article>
+        <article class="card">
+          <h3>테스트 확장형</h3>
+          <p>고양이 검색 수요와 채널 전용 패키지를 확인하는 후보 SKU.</p>
+        </article>
+      </div>
+
+      <div class="table-wrap">
+        <table class="sku-table">
           <thead>
             <tr>
-              <th>우선순위</th>
-              <th>아이템</th>
-              <th>다이소</th>
-              <th>쿠팡</th>
-              <th>코스트코</th>
-              <th>검토 포인트</th>
+              <th>운영 역할</th>
+              <th>SKU</th>
+              <th>타깃 채널</th>
+              <th>권장 용량</th>
+              <th>권장 소비자가</th>
+              <th>개발 방향</th>
+              <th>확인 필요사항</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><b>1</b></td>
-              <td>동결건조 치킨 미니큐브</td>
-              <td>10~15g / 1,000원</td>
-              <td>500g / 19,900원~</td>
-              <td>500g 이상 벌크</td>
-              <td>가장 안정적이나 경쟁 많음</td>
+              <td>매출 검증형</td>
+              <td>생선믹스 크럼블 대용량</td>
+              <td>쿠팡, 코스트코, 대리점</td>
+              <td>300g / 500g</td>
+              <td>19,900~22,900원</td>
+              <td>열빙어·북어·연어·흰살생선 믹스. 사료에 뿌리는 대용량 토핑.</td>
+              <td>500g 총원가 8,231~9,407원 가능 여부, 파손률, 냄새, 지퍼백 내구성.</td>
             </tr>
             <tr>
-              <td><b>2</b></td>
-              <td>생선믹스 크럼블</td>
-              <td>10~12g / 1,000원</td>
-              <td>300~500g</td>
-              <td>믹스팩 가능</td>
-              <td>고양이·토핑 메시지 유리</td>
+              <td>OSP 연계형</td>
+              <td>사료 토핑 미니팩</td>
+              <td>다이소, 오프라인, 네이버</td>
+              <td>10g / 15g / 20g</td>
+              <td>1,000~2,000원</td>
+              <td>밥꾸형 소용량. OSP 사료 구매 사은품과 묶음 판매에 최적.</td>
+              <td>1,000원형 총원가 312~356원 가능 여부, 분진, 소분 포장 자동화.</td>
             </tr>
             <tr>
-              <td><b>3</b></td>
-              <td>치킨&노른자 큐브</td>
-              <td>10~12g / 1,000~2,000원</td>
-              <td>프리미엄 소포장</td>
-              <td>제외 또는 믹스 구성</td>
-              <td>기호성 차별화</td>
+              <td>생애주기 선점형</td>
+              <td>시니어 소프트 트릿</td>
+              <td>쿠팡, 네이버, 코스트코, 대리점</td>
+              <td>320g / 600g</td>
+              <td>10,900원 / 16,900원</td>
+              <td>노견도 먹기 쉬운 부드러운 식감. 북어·연어·고구마·단호박·콜라겐 조합.</td>
+              <td>수분감, 보존성, 곰팡이 리스크, 저작 편의성, 관절·소화 문구 표시 가능 범위.</td>
             </tr>
             <tr>
-              <td><b>4</b></td>
-              <td>마따따비+치킨 동결건조</td>
-              <td>테스트 가능</td>
-              <td>고양이 전용</td>
-              <td>비추천</td>
-              <td>차별화 강하나 원가·기호성 테스트 필요</td>
+              <td>검색/반복구매형</td>
+              <td>저칼로리 노즈워크 미니 트릿</td>
+              <td>쿠팡, 네이버, 다이소, 코스트코</td>
+              <td>20g / 200g / 500g</td>
+              <td>1,000원 / 12,900원 / 19,900원</td>
+              <td>1알 1~2kcal, 0.5~0.8cm 미니 사이즈. 닭간·황태 향 원료로 기호성 보완.</td>
+              <td>실제 kcal, 알갱이 균일도, 노즈워크 장난감 호환성, 저칼로리 표시 근거.</td>
+            </tr>
+            <tr>
+              <td>프리미엄 직수입형</td>
+              <td>프리미엄 오일 토퍼</td>
+              <td>쿠팡, 네이버</td>
+              <td>120ml / 250~300ml</td>
+              <td>19,900~34,900원</td>
+              <td>사료에 뿌리는 액상 토퍼. 연어오일·피쉬오일 기반의 피부/피모 관리 이미지.</td>
+              <td>원료 원산지, EPA/DHA 함량, 산가·과산화물가, 펌프 누유, 어취, 산패 방지 포장.</td>
+            </tr>
+            <tr>
+              <td>고양이 검색 테스트형</td>
+              <td>마따따비 열매 건조</td>
+              <td>쿠팡, 네이버</td>
+              <td>소포장 / 다입 구성</td>
+              <td>9,900~16,900원</td>
+              <td>검색 수요 대응형. 기호성보다는 반응 콘텐츠와 후기 확보가 중요.</td>
+              <td>원산지, 살충·농약 검사, 포장 내 향 보존성, 표시 가능 문구.</td>
+            </tr>
+            <tr>
+              <td>고양이 믹스 확장형</td>
+              <td>단백질+마따따비 믹스</td>
+              <td>쿠팡, 네이버</td>
+              <td>80g / 150g / 300g</td>
+              <td>12,900~24,900원</td>
+              <td>생선 또는 치킨 동결건조 사이에 마따따비를 넣은 믹스형.</td>
+              <td>마따따비 함량, 과다 급여 방지 문구, 고양이 전용 표시, 급여량.</td>
+            </tr>
+            <tr>
+              <td>채널 전용형</td>
+              <td>코스트코 전용 대용량 팩</td>
+              <td>코스트코, 대리점</td>
+              <td>500g / 2팩 번들</td>
+              <td>19,900~24,900원</td>
+              <td>쿠팡과 내용물은 같아도 패키지명·색상·구성·바코드 분리.</td>
+              <td>채널별 가격 충돌 방지, 박스 입수, 팔레트 적재 효율, 납품가 조건.</td>
             </tr>
           </tbody>
         </table>
-      </section>
+      </div>
 
-      <section class="two-col">
-        <div class="panel">
-          <h2>5. 상해 현장 확인 질문</h2>
-          <ul class="checklist">
-            <li>10g, 15g, 20g 소포장 완제품 단가</li>
-            <li>500g 지퍼백 완제품 단가</li>
-            <li>포장 포함·미포함 단가 구분</li>
-            <li>MOQ 5천개, 1만개, 3만개별 단가</li>
-            <li>부스러기 비율과 크기 균일성</li>
-            <li>한국 수출 서류 및 사료 수입 신고 가능 여부</li>
-            <li>미생물·중금속·멜라민 검사성적서</li>
-            <li>채널별 패키지 분리 가능 여부</li>
+      <div class="decision" style="margin-top: 18px;">
+        <div class="callout">
+          <h3>추천 결론</h3>
+          <p>
+            출시 구도는 매출 검증형, OSP 연계형, 프리미엄 옵션형으로 분리하는 것이 좋습니다.
+            쿠팡에서는 생선믹스 크럼블과 저칼로리 노즈워크를 먼저 검증하고,
+            사료 토핑·시니어 소프트는 OSP의 브랜드 차별화 SKU로 가져갑니다.
+            오일 토퍼는 상해 현장 소싱보다 프리미엄 직수입 후보로 별도 검토합니다.
+          </p>
+        </div>
+        <article class="card">
+          <h3>패키지 분리 원칙</h3>
+          <ul>
+            <li>쿠팡: 검색 최적화형 상품명, 가격 비교가 쉬운 500g 단일팩.</li>
+            <li>코스트코: 전용 대용량 그래픽, 번들감.</li>
+            <li>대리점: 코스트코형 제품을 납품, 유통 마진 별도 관리.</li>
+            <li>네이버: 코스트코 전용 제외 전 라인 취급, 브랜드 설명과 상세페이지 강화.</li>
           </ul>
-        </div>
-        <div class="panel">
-          <h2>6. 소싱 통과 기준</h2>
-          <table>
-            <tbody>
-              <tr>
-                <th>다이소 1,000원</th>
-                <td>총원가 312~356원 이내</td>
-              </tr>
-              <tr>
-                <th>다이소 2,000원</th>
-                <td>총원가 624~713원 이내</td>
-              </tr>
-              <tr>
-                <th>쿠팡 500g</th>
-                <td>19,900~22,900원 판매 가능 원가</td>
-              </tr>
-              <tr>
-                <th>코스트코</th>
-                <td>500g 이상, 대용량 체감 필수</td>
-              </tr>
-              <tr>
-                <th>품질</th>
-                <td>냄새, 색상, 부스러기, 원물 균일성 통과</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+        </article>
+      </div>
+    </section>
 
-      <section>
-        <div class="decision">
-          <div>
-            <h2 style="margin-bottom: 12px;">보고 결론</h2>
-            <p>
-              중국산 동결건조 간식은 채널별 분리 운영 시 검토 가치가 있다.
-              다만 원산지 리스크를 가격과 증량, QC 신뢰로 상쇄해야 하며
-              다이소 1,000원 라인은 특히 총원가 관리가 핵심이다.
-            </p>
-          </div>
-          <div class="decision-list">
-            <div class="decision-item"><b>의사결정 1</b> 다이소 1,000원 라인은 10~15g 기준으로만 단가 확인</div>
-            <div class="decision-item"><b>의사결정 2</b> 쿠팡·코스트코는 500g 기준 2만원 전후 가격 경쟁력 확보</div>
-            <div class="decision-item"><b>의사결정 3</b> 동일 원물 사용 시에도 채널별 패키지, 바코드, 규격 분리</div>
-          </div>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">Fair Checklist</span>
+          <h2>7. 상해 박람회 체크리스트</h2>
         </div>
-      </section>
+        <p class="section-note">
+          단가만 보면 위험합니다. 실제 수입 후 판매 가능한 총원가와 표시·검사 리스크까지 같이 확인해야 합니다.
+        </p>
+      </div>
 
-      <section class="sources">
-        <b>참고 출처</b><br />
-        동원F&B 아르르 밥·꾸 간식 16종 및 1,000원 가격:
-        <a href="https://www.yna.co.kr/view/AKR20260720026400030" target="_blank" rel="noreferrer">연합뉴스</a>,
-        <a href="https://sports.khan.co.kr/article/202607201000003" target="_blank" rel="noreferrer">스포츠경향</a><br />
-        3651 바이츠 동결건조 닭가슴살 500g 벤치마크:
-        <a href="https://www.coupang.com/vp/products/7493440093" target="_blank" rel="noreferrer">쿠팡 상품 페이지</a><br />
-        뉴트리플랜 동결건조 닭안심 300g 벤치마크:
-        <a href="https://www.costco.co.kr/BabyKidsToysPets/Pet-Supplies/Cat-Foods/Nutriplan-Freeze-Dried-Treats-Chicken-Tender-300g/p/683979" target="_blank" rel="noreferrer">코스트코 상품 페이지</a>
-      </section>
-    </main>
-  </div>
+      <div class="grid cols-2">
+        <article class="card">
+          <h3>가격·원가</h3>
+          <ul>
+            <li>500g 기준 FOB, CIF, 국내 도착 후 총원가를 모두 요청.</li>
+            <li>10g / 20g / 300g / 500g별 견적 분리 요청.</li>
+            <li>MOQ 1차 테스트 물량과 양산 물량 단가 차이 확인.</li>
+            <li>패키지 변경, 지퍼백, 질소충전, 실리카겔 비용 별도 확인.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>제품 품질</h3>
+          <ul>
+            <li>파손률, 분진율, 냄새, 색상 편차, 수분활성도 자료 확인.</li>
+            <li>생선 원물의 비린내와 산패 관리 방식 확인.</li>
+            <li>마따따비 향 보존성, 열매 크기 편차, 이물 관리 확인.</li>
+            <li>시니어 소프트 트릿의 수분감, 끈적임, 곰팡이 리스크, 씹힘 강도 확인.</li>
+            <li>노즈워크 미니 트릿의 알갱이 균일도, 부스러짐, 장난감 투입 호환성 확인.</li>
+            <li>오일류는 산패, 어취, 누유, 펌프 불량, 차광 용기, 산가·과산화물가 자료 확인.</li>
+            <li>급여 후 기호성 테스트 샘플 확보.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>규제·표시</h3>
+          <ul>
+            <li>중국산 반려동물 간식 수입 가능 품목과 검역 조건 확인.</li>
+            <li>원료명, 원산지, 유통기한, 제조원 표기 가능 방식 확인.</li>
+            <li>질병 예방·치료 표현이 들어가지 않도록 상세페이지 문구 관리.</li>
+            <li>마따따비는 고양이 전용 표시와 급여량 주의 문구 필요.</li>
+            <li>저칼로리, 관절, 소화, 시니어 표현은 원료·성분 근거 범위 내에서만 사용.</li>
+            <li>오일류는 피부병·알러지 치료 표현을 피하고, 원료·영양성분 중심으로 표현.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>채널 운영</h3>
+          <ul>
+            <li>쿠팡 35% 마진 반영 후 19,900원 판매 가능 여부 확인.</li>
+            <li>코스트코 전용 패키지와 대리점 박스 구성이 가능한지 확인.</li>
+            <li>다이소 1,000원형 총원가 312~356원 달성 가능 여부 확인.</li>
+            <li>시니어 소프트 320g 10,900원, 노즈워크 미니 200g 12,900원 기준 총원가 확인.</li>
+            <li>오일류는 상해 박람회 현장 소싱보다 프리미엄 원료 직수입 후보로 별도 비교.</li>
+            <li>네이버 브랜드스토어용 상세 이미지와 원물 사진 제공 가능 여부 확인.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill">Next Step</span>
+          <h2>8. 추가 제안 구분</h2>
+        </div>
+        <p class="section-note">
+          보고 시에는 아래 항목을 추가하면 의사결정이 더 빨라집니다.
+        </p>
+      </div>
+
+      <div class="grid cols-4">
+        <article class="card">
+          <h3>검증 순서</h3>
+          <p>생선믹스 크럼블 500g → 저칼로리 노즈워크 200g → 시니어 소프트 320g → 사료 토핑 10g → 오일 토퍼 → 마따따비 순으로 검증.</p>
+        </article>
+        <article class="card">
+          <h3>중국산 운영 원칙</h3>
+          <p>인디고 본 브랜드보다는 별도 간식 라인 또는 채널 전용 라벨로 운영해 브랜드 리스크를 낮춤.</p>
+        </article>
+        <article class="card">
+          <h3>샘플 평가표</h3>
+          <p>단가, 냄새, 분진, 파손, 기호성, 포장 완성도, 표시 가능성, MOQ를 점수화.</p>
+        </article>
+        <article class="card">
+          <h3>출시 순서</h3>
+          <p>쿠팡으로 대용량 수요 검증 후 네이버 확대, 다이소는 원가 확정 후 소용량으로 진입.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="pill gray">Sources</span>
+          <h2>참고 자료</h2>
+        </div>
+      </div>
+      <ol class="source-list">
+        <li><a href="https://www.yna.co.kr/view/AKR20260720026400030" target="_blank" rel="noopener">연합뉴스: 동원F&amp;B, 다이소 전용 펫간식 브랜드 '아르르 밥꾸' 출시</a></li>
+        <li><a href="https://www.coupang.com/vp/products/8595978775?itemId=4040128243&vendorItemId=72024290734" target="_blank" rel="noopener">쿠팡: 힐링타임 동결건조 고양이 마따따비 열매</a></li>
+        <li><a href="https://www.coupang.com/vp/products/8243083439?itemId=23721506002&vendorItemId=90822173529" target="_blank" rel="noopener">쿠팡: 그로비타 고양이전용 동결건조 큐브</a></li>
+        <li><a href="https://www.coupang.com/vp/products/7977555430?itemId=22122361414&vendorItemId=89412143521" target="_blank" rel="noopener">쿠팡: 칸타나 동결건조 치킨 스몰텐더 500g</a></li>
+        <li><a href="https://www.coupang.com/vp/products/8743456308?itemId=25390849911&vendorItemId=92384457444" target="_blank" rel="noopener">쿠팡: 3651 고양이 바이츠 열빙어 350g</a></li>
+        <li><a href="https://www.coupang.com/vp/products/7565890364?itemId=19943518316&vendorItemId=87041732228" target="_blank" rel="noopener">쿠팡: 테비토퍼 황금북어 300g</a></li>
+        <li><a href="https://www.kbfg.com/kbresearch/report/reportView.do?reportId=2000531" target="_blank" rel="noopener">KB금융그룹: 2025 한국 반려동물 보고서</a></li>
+        <li><a href="https://retailtalk.co.kr/Trend/?bmode=view&idx=168856045" target="_blank" rel="noopener">리테일톡: 반려동물 시장 트렌드</a></li>
+        <li><a href="https://www.coupang.com/vp/products/8595743361" target="_blank" rel="noopener">쿠팡: 퍼피아이 시니어소프트 관절영양롤</a></li>
+        <li><a href="https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%85%B8%EC%A6%88%EC%9B%8C%ED%81%AC+%EA%B0%84%EC%8B%9D" target="_blank" rel="noopener">쿠팡: 강아지 노즈워크 간식 검색 결과</a></li>
+        <li><a href="https://www.coupang.com/vp/products/7785811904" target="_blank" rel="noopener">쿠팡: 펫생각 하루조이 미니 저칼로리 노즈워크 간식</a></li>
+        <li><a href="https://www.coupang.com/vp/products/2174506621" target="_blank" rel="noopener">쿠팡: 노즈워크 강아지 트레이닝스낵</a></li>
+        <li><a href="https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80%EC%98%A4%EB%A9%94%EA%B0%803" target="_blank" rel="noopener">쿠팡: 강아지 오메가3 검색 결과</a></li>
+        <li><a href="https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%98%A4%EB%A9%94%EA%B0%80+3" target="_blank" rel="noopener">쿠팡: 고양이 오메가3 검색 결과</a></li>
+        <li><a href="https://www.coupang.com/np/search?q=%EC%97%B0%EC%96%B4%EC%98%A4%EC%9D%BC" target="_blank" rel="noopener">쿠팡: 연어오일 검색 결과</a></li>
+      </ol>
+    </section>
+  </main>
 </body>
 </html>
