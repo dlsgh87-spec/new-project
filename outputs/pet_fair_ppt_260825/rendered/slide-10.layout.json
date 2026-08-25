@@ -1,0 +1,2507 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/sgeudf",
+    "id": "sgeudf",
+    "slide": 10,
+    "layoutId": "8cfc56e2-a197-41be-bad3-e00254e5eecf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1473d52e-0a66-46f7-899c-c31f834919fe",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F5F7FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Malgun Gothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cfc56e2-a197-41be-bad3-e00254e5eecf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1473d52e-0a66-46f7-899c-c31f834919fe",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1473d52e-0a66-46f7-899c-c31f834919fe",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbat0zm5",
+      "id": "1",
+      "bbox": [
+        64,
+        38,
+        800,
+        50
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci/Harts Pet Products / Medellin Pet",
+      "textPreview": "Jiangxi Haci/Harts Pet Products / Medellin Pet",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 35,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci/Harts Pet Products / Medellin Pet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci/Harts Pet Products / Medellin Pet",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci/Harts Pet Products / Medellin Pet",
+              "fontSize": 35,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/va1s7ulk",
+      "id": "2",
+      "bbox": [
+        66,
+        88,
+        770,
+        36
+      ],
+      "geometry": "rect",
+      "text": "업체 규모가 작고 한국향 기준 대응이 불확실해 우선순위는 낮습니다. 가격 확인용 또는 일부 구강/껌류 참고 후보로만 두는 편이 좋겠습니다.",
+      "textPreview": "업체 규모가 작고 한국향 기준 대응이 불확실해 우선순위는 낮습니다. 가격 확인용 또는 일부 구강/껌류 참고 후보로만 두는 편이 좋겠습니다.",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.77,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "업체 규모가 작고 한국향 기준 대응이 불확실해 우선순위는 낮습니다. 가격 확인용 또는 일부 구강/껌류 참고 후보로만 두는 편이"
+          },
+          {
+            "index": 2,
+            "text": "좋겠습니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "업체 규모가 작고 한국향 기준 대응이 불확실해 우선순위는 낮습니다. 가격 확인용 또는 일부 구강/껌류 참고 후보로만 두는 편이 좋겠습니다.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "업체 규모가 작고 한국향 기준 대응이 불확실해 우선순위는 낮습니다. 가격 확인용 또는 일부 구강/껌류 참고 후보로만 두는 편이 좋겠습니다.",
+              "fontSize": 17,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a98byp4z",
+      "id": "3",
+      "bbox": [
+        64,
+        128,
+        1120,
+        3
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5C542",
+      "lineColor": "#F5C542",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50jad43m",
+      "id": "4",
+      "bbox": [
+        1110,
+        44,
+        90,
+        26
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "right",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "right",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzat4zm1",
+      "id": "5",
+      "bbox": [
+        68,
+        137,
+        92,
+        26
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E6F8F4",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jy1sbelw",
+      "id": "6",
+      "bbox": [
+        78,
+        141,
+        72,
+        18
+      ],
+      "geometry": "rect",
+      "text": "후순위",
+      "textPreview": "후순위",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "후순위"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "후순위",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "후순위",
+              "fontSize": 13,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixsb294b",
+      "id": "7",
+      "bbox": [
+        168,
+        137,
+        116,
+        26
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EAF1FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t43uho3y",
+      "id": "8",
+      "bbox": [
+        178,
+        141,
+        96,
+        18
+      ],
+      "geometry": "rect",
+      "text": "메모 업체",
+      "textPreview": "메모 업체",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Malgun Gothic",
+        "color": "#275BD6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "메모 업체"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "메모 업체",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Malgun Gothic",
+            "color": "#275BD6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "메모 업체",
+              "fontSize": 13,
+              "typeface": "Malgun Gothic",
+              "color": "#275BD6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3ut8jmd",
+      "id": "9",
+      "bbox": [
+        292,
+        137,
+        116,
+        26
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EAF1FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m90byt0f",
+      "id": "10",
+      "bbox": [
+        302,
+        141,
+        96,
+        18
+      ],
+      "geometry": "rect",
+      "text": "사진 4장",
+      "textPreview": "사진 4장",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Malgun Gothic",
+        "color": "#275BD6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "사진 4장"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "사진 4장",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Malgun Gothic",
+            "color": "#275BD6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "사진 4장",
+              "fontSize": 13,
+              "typeface": "Malgun Gothic",
+              "color": "#275BD6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/na9s7yh0",
+      "id": "11",
+      "bbox": [
+        775,
+        162,
+        196,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bq9c7q98",
+      "id": "12",
+      "bbox": [
+        783,
+        170,
+        180,
+        162
+      ],
+      "geometry": "roundRect",
+      "alt": "Jiangxi Haci / Mai De Chong 부스 전경",
+      "contentType": "image/jpeg",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 3704"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "ad160b40-5f6a-435a-bd35-359a370cb0c4",
+        "contentType": "image/jpeg",
+        "byteLength": 117266
+      }
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cra98z6",
+      "id": "13",
+      "bbox": [
+        785,
+        337,
+        176,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci / Mai De Chong 부스 전경",
+      "textPreview": "Jiangxi Haci / Mai De Chong 부스 전경",
+      "resolvedFontSize": 9.54,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.79,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci / Mai De Chong 부스"
+          },
+          {
+            "index": 2,
+            "text": "전경"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci / Mai De Chong 부스 전경",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci / Mai De Chong 부스 전경",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adkb2t0r",
+      "id": "14",
+      "bbox": [
+        785,
+        354,
+        176,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci Medellin Pet.jpg",
+      "textPreview": "Jiangxi Haci Medellin Pet.jpg",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci Medellin Pet.jpg"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci Medellin Pet.jpg",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci Medellin Pet.jpg",
+              "fontSize": 10,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/betsbyhc",
+      "id": "15",
+      "bbox": [
+        990,
+        162,
+        196,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/nm9s369c",
+      "id": "16",
+      "bbox": [
+        998,
+        170,
+        180,
+        162
+      ],
+      "geometry": "roundRect",
+      "alt": "Jiangxi Haci 제품 전시 1",
+      "contentType": "image/jpeg",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 3704"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "073a94f8-8e1d-4529-b184-a2e3a8d37aff",
+        "contentType": "image/jpeg",
+        "byteLength": 95854
+      }
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgbad8z2",
+      "id": "17",
+      "bbox": [
+        1000,
+        337,
+        176,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci 제품 전시 1",
+      "textPreview": "Jiangxi Haci 제품 전시 1",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci 제품 전시 1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci 제품 전시 1",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci 제품 전시 1",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhgrq90n",
+      "id": "18",
+      "bbox": [
+        1000,
+        354,
+        176,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci Medellin Pet 01.jpg",
+      "textPreview": "Jiangxi Haci Medellin Pet 01.jpg",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci Medellin Pet 01.jpg"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci Medellin Pet 01.jpg",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci Medellin Pet 01.jpg",
+              "fontSize": 10,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ripszehs",
+      "id": "19",
+      "bbox": [
+        70,
+        172,
+        180,
+        26
+      ],
+      "geometry": "rect",
+      "text": "기본 정보",
+      "textPreview": "기본 정보",
+      "resolvedFontSize": 18.84,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "기본 정보"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "기본 정보",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "기본 정보",
+              "fontSize": 20,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/valgb6to",
+      "id": "20",
+      "bbox": [
+        70,
+        208,
+        672,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9czi1c3",
+      "id": "21",
+      "bbox": [
+        82,
+        217,
+        92,
+        18
+      ],
+      "geometry": "rect",
+      "text": "상호명",
+      "textPreview": "상호명",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "상호명"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "상호명",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "상호명",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hc3ydgbe",
+      "id": "22",
+      "bbox": [
+        180,
+        216,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci/Harts Pet Products Co., Ltd. 영문 표기는 자료별로 Haci, Harts, Hartz가 혼재되어 공식...",
+      "textPreview": "Jiangxi Haci/Harts Pet Products Co., Ltd. 영문 표기는 자료별로 Haci, Harts, Hartz가 혼재되어 공식...",
+      "resolvedFontSize": 12.25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.82,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci/Harts Pet Products Co., Ltd. 영문 표기는 자료별로 Haci, Harts, Hartz가 혼재되어"
+          },
+          {
+            "index": 2,
+            "text": "공식..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci/Harts Pet Products Co., Ltd. 영문 표기는 자료별로 Haci, Harts, Hartz가 혼재되어 공식...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci/Harts Pet Products Co., Ltd. 영문 표기는 자료별로 Haci, Harts, Hartz가 혼재되어 공식...",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbuhkbu9",
+      "id": "23",
+      "bbox": [
+        70,
+        248,
+        672,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7m1g76tc",
+      "id": "24",
+      "bbox": [
+        82,
+        257,
+        92,
+        18
+      ],
+      "geometry": "rect",
+      "text": "주소",
+      "textPreview": "주소",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "주소"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "주소",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "주소",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlsze1cr",
+      "id": "25",
+      "bbox": [
+        180,
+        256,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Pingxiang, Jiangxi, China Mainland. 부스: N2 / N2R52.",
+      "textPreview": "Pingxiang, Jiangxi, China Mainland. 부스: N2 / N2R52.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pingxiang, Jiangxi, China Mainland. 부스: N2 / N2R52."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pingxiang, Jiangxi, China Mainland. 부스: N2 / N2R52.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pingxiang, Jiangxi, China Mainland. 부스: N2 / N2R52.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98jy9gbi",
+      "id": "26",
+      "bbox": [
+        70,
+        288,
+        672,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nahgbux",
+      "id": "27",
+      "bbox": [
+        82,
+        297,
+        92,
+        18
+      ],
+      "geometry": "rect",
+      "text": "홈페이지",
+      "textPreview": "홈페이지",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "홈페이지"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "홈페이지",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "홈페이지",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ri5gjqtw",
+      "id": "28",
+      "bbox": [
+        180,
+        296,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "박람회 공식 페이지: https://online.petfairasia.com/en/showroom-2026/institutions/9c1eg",
+      "textPreview": "박람회 공식 페이지: https://online.petfairasia.com/en/showroom-2026/institutions/9c1eg",
+      "resolvedFontSize": 13.69,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "박람회 공식 페이지:"
+          },
+          {
+            "index": 2,
+            "text": "https://online.petfairasia.com/en/showroom-2026/institutions/9c1eg"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "박람회 공식 페이지: https://online.petfairasia.com/en/showroom-2026/institutions/9c1eg",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "박람회 공식 페이지: https://online.petfairasia.com/en/showroom-2026/institutions/9c1eg",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhwzqlcb",
+      "id": "29",
+      "bbox": [
+        70,
+        328,
+        672,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/on6dknat",
+      "id": "30",
+      "bbox": [
+        82,
+        337,
+        92,
+        18
+      ],
+      "geometry": "rect",
+      "text": "한국수출",
+      "textPreview": "한국수출",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "한국수출"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "한국수출",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "한국수출",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pofedsry",
+      "id": "31",
+      "bbox": [
+        180,
+        336,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "메모상 한국 수출 경험 없음. 벨기에, 인도네시아, 동남아 수출 경험 언급. 공식 페이지는 Import/Export 기업으로 표기.",
+      "textPreview": "메모상 한국 수출 경험 없음. 벨기에, 인도네시아, 동남아 수출 경험 언급. 공식 페이지는 Import/Export 기업으로 표기.",
+      "resolvedFontSize": 10.42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.69,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "메모상 한국 수출 경험 없음. 벨기에, 인도네시아, 동남아 수출 경험 언급. 공식 페이지는 Import/Export 기업으로"
+          },
+          {
+            "index": 2,
+            "text": "표기."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "메모상 한국 수출 경험 없음. 벨기에, 인도네시아, 동남아 수출 경험 언급. 공식 페이지는 Import/Export 기업으로 표기.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "메모상 한국 수출 경험 없음. 벨기에, 인도네시아, 동남아 수출 경험 언급. 공식 페이지는 Import/Export 기업으로 표기.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lovidsn",
+      "id": "32",
+      "bbox": [
+        70,
+        368,
+        672,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nmxwbit8",
+      "id": "33",
+      "bbox": [
+        82,
+        377,
+        92,
+        18
+      ],
+      "geometry": "rect",
+      "text": "가능품목",
+      "textPreview": "가능품목",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "가능품목"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "가능품목",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "가능품목",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crqdo7ap",
+      "id": "34",
+      "bbox": [
+        180,
+        376,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄 중심.",
+      "textPreview": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄 중심.",
+      "resolvedFontSize": 10.58,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.71,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄"
+          },
+          {
+            "index": 2,
+            "text": "중심."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄 중심.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄 중심.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xszehcra",
+      "id": "35",
+      "bbox": [
+        70,
+        408,
+        672,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apovmxsj",
+      "id": "36",
+      "bbox": [
+        82,
+        417,
+        92,
+        18
+      ],
+      "geometry": "rect",
+      "text": "강점",
+      "textPreview": "강점",
+      "resolvedFontSize": 13.04,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "강점"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "강점",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "강점",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqhwf294",
+      "id": "37",
+      "bbox": [
+        180,
+        416,
+        550,
+        22
+      ],
+      "geometry": "rect",
+      "text": "OEM/ODM 가능. 표준화·무진 생산시설, 자동화 생산라인, 자체 QC 실험실 보유로 공식 소개됨.",
+      "textPreview": "OEM/ODM 가능. 표준화·무진 생산시설, 자동화 생산라인, 자체 QC 실험실 보유로 공식 소개됨.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.87,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OEM/ODM 가능. 표준화·무진 생산시설, 자동화 생산라인, 자체 QC 실험실 보유로 공식"
+          },
+          {
+            "index": 2,
+            "text": "소개됨."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OEM/ODM 가능. 표준화·무진 생산시설, 자동화 생산라인, 자체 QC 실험실 보유로 공식 소개됨.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OEM/ODM 가능. 표준화·무진 생산시설, 자동화 생산라인, 자체 QC 실험실 보유로 공식 소개됨.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kfqds7a1",
+      "id": "38",
+      "bbox": [
+        70,
+        474,
+        180,
+        26
+      ],
+      "geometry": "rect",
+      "text": "견적 요약",
+      "textPreview": "견적 요약",
+      "resolvedFontSize": 18.84,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "견적 요약"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "견적 요약",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "견적 요약",
+              "fontSize": 20,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgzelcr6",
+      "id": "39",
+      "bbox": [
+        70,
+        508,
+        672,
+        92
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ore1cfm",
+      "id": "40",
+      "bbox": [
+        90,
+        526,
+        630,
+        56
+      ],
+      "geometry": "rect",
+      "text": "대두단백 랩핑 간식: 52 RMB/kg · 약 10,920원/kg / MOQ 300kg · 약 3,276,000원\n난황+오리: 공개 단가 미기재 / -\n구강/껌류: 공개 단가 미기재 / -",
+      "textPreview": "대두단백 랩핑 간식: 52 RMB/kg · 약 10,920원/kg / MOQ 300kg · 약 3,276,000원 | 난황+오리: 공개 단가 미기재 / - | 구강/껌류: 공개 단가 미기재 / -",
+      "resolvedFontSize": 13.65,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 대두단백 랩핑 간식: 52 RMB/kg · 약 10,920원/kg / MOQ 300kg · 약 3,276,000원"
+          },
+          {
+            "index": 2,
+            "text": "• 난황+오리: 공개 단가 미기재 / -"
+          },
+          {
+            "index": 3,
+            "text": "• 구강/껌류: 공개 단가 미기재 / -"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "대두단백 랩핑 간식: 52 RMB/kg · 약 10,920원/kg / MOQ 300kg · 약 3,276,000원",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "대두단백 랩핑 간식: 52 RMB/kg · 약 10,920원/kg / MOQ 300kg · 약 3,276,000원",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "난황+오리: 공개 단가 미기재 / -",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "난황+오리: 공개 단가 미기재 / -",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "구강/껌류: 공개 단가 미기재 / -",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "구강/껌류: 공개 단가 미기재 / -",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knids7e1",
+      "id": "41",
+      "bbox": [
+        775,
+        398,
+        411,
+        202
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm9wz2xg",
+      "id": "42",
+      "bbox": [
+        796,
+        418,
+        250,
+        26
+      ],
+      "geometry": "rect",
+      "text": "리스크 / 다음 액션",
+      "textPreview": "리스크 / 다음 액션",
+      "resolvedFontSize": 18.84,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "리스크 / 다음 액션"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "리스크 / 다음 액션",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "리스크 / 다음 액션",
+              "fontSize": 20,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i10vqxwv",
+      "id": "43",
+      "bbox": [
+        798,
+        458,
+        360,
+        106
+      ],
+      "geometry": "rect",
+      "text": "우선 협상 대상에서는 제외.\n구강/껌류 추진 시 한국향 배합 가능 여부 재문의.\n한국향은 고기 함량/원료 기준을 맞추기 어려울 수 있음.",
+      "textPreview": "우선 협상 대상에서는 제외. | 구강/껌류 추진 시 한국향 배합 가능 여부 재문의. | 한국향은 고기 함량/원료 기준을 맞추기 어려울 수 있음.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 우선 협상 대상에서는 제외."
+          },
+          {
+            "index": 2,
+            "text": "• 구강/껌류 추진 시 한국향 배합 가능 여부 재문의."
+          },
+          {
+            "index": 3,
+            "text": "• 한국향은 고기 함량/원료 기준을 맞추기 어려울 수"
+          },
+          {
+            "index": 4,
+            "text": "있음."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "우선 협상 대상에서는 제외.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "우선 협상 대상에서는 제외.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "구강/껌류 추진 시 한국향 배합 가능 여부 재문의.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "구강/껌류 추진 시 한국향 배합 가능 여부 재문의.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "한국향은 고기 함량/원료 기준을 맞추기 어려울 수 있음.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "한국향은 고기 함량/원료 기준을 맞추기 어려울 수 있음.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0rexsfa",
+      "id": "44",
+      "bbox": [
+        70,
+        630,
+        760,
+        22
+      ],
+      "geometry": "rect",
+      "text": "메모: 1번째 업체 너무 영세함_260820_200237.docx",
+      "textPreview": "메모: 1번째 업체 너무 영세함_260820_200237.docx",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "메모: 1번째 업체 너무 영세함_260820_200237.docx"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "메모: 1번째 업체 너무 영세함_260820_200237.docx",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "메모: 1번째 업체 너무 영세함_260820_200237.docx",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

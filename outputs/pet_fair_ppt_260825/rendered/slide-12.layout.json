@@ -1,0 +1,837 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/g0j7ky",
+    "id": "g0j7ky",
+    "slide": 12,
+    "layoutId": "8cfc56e2-a197-41be-bad3-e00254e5eecf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1473d52e-0a66-46f7-899c-c31f834919fe",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F5F7FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Malgun Gothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cfc56e2-a197-41be-bad3-e00254e5eecf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1473d52e-0a66-46f7-899c-c31f834919fe",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1473d52e-0a66-46f7-899c-c31f834919fe",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m98v21gj",
+      "id": "1",
+      "bbox": [
+        64,
+        38,
+        800,
+        50
+      ],
+      "geometry": "rect",
+      "text": "추가 체크 항목",
+      "textPreview": "추가 체크 항목",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 35,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "추가 체크 항목"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "추가 체크 항목",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "추가 체크 항목",
+              "fontSize": 35,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9wzexwzu",
+      "id": "2",
+      "bbox": [
+        66,
+        88,
+        770,
+        36
+      ],
+      "geometry": "rect",
+      "text": "킥오프/후속 미팅에서는 아래 항목을 먼저 확정하면 됩니다.",
+      "textPreview": "킥오프/후속 미팅에서는 아래 항목을 먼저 확정하면 됩니다.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "킥오프/후속 미팅에서는 아래 항목을 먼저 확정하면 됩니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "킥오프/후속 미팅에서는 아래 항목을 먼저 확정하면 됩니다.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "킥오프/후속 미팅에서는 아래 항목을 먼저 확정하면 됩니다.",
+              "fontSize": 17,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bqd4by9",
+      "id": "3",
+      "bbox": [
+        64,
+        128,
+        1120,
+        3
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5C542",
+      "lineColor": "#F5C542",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vyhwz6h0",
+      "id": "4",
+      "bbox": [
+        1110,
+        44,
+        90,
+        26
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "right",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "right",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ax8v61gf",
+      "id": "5",
+      "bbox": [
+        78,
+        178,
+        520,
+        384
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0ze1gz6",
+      "id": "6",
+      "bbox": [
+        104,
+        204,
+        220,
+        28
+      ],
+      "geometry": "rect",
+      "text": "미팅 전 확인",
+      "textPreview": "미팅 전 확인",
+      "resolvedFontSize": 20.29,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "미팅 전 확인"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "미팅 전 확인",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "미팅 전 확인",
+              "fontSize": 24,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wzqd8byl",
+      "id": "7",
+      "bbox": [
+        108,
+        254,
+        440,
+        250
+      ],
+      "geometry": "rect",
+      "text": "계약 주체와 수출 서류 발행 주체를 업체별로 확정합니다.\nFOB/CIF 부산 조건, 내륙 운임, 포장비 포함 여부를 분리 확인합니다.\nMOQ가 품목별 기준인지 전체 발주 기준인지 재대조합니다.",
+      "textPreview": "계약 주체와 수출 서류 발행 주체를 업체별로 확정합니다. | FOB/CIF 부산 조건, 내륙 운임, 포장비 포함 여부를 분리 확인합니다. | MOQ가 품목별 기준인지 전체 발주 기준인지 재대조합니다.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 계약 주체와 수출 서류 발행 주체를 업체별로"
+          },
+          {
+            "index": 2,
+            "text": "확정합니다."
+          },
+          {
+            "index": 3,
+            "text": "• FOB/CIF 부산 조건, 내륙 운임, 포장비 포함 여부를"
+          },
+          {
+            "index": 4,
+            "text": "분리 확인합니다."
+          },
+          {
+            "index": 5,
+            "text": "• MOQ가 품목별 기준인지 전체 발주 기준인지"
+          },
+          {
+            "index": 6,
+            "text": "재대조합니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "계약 주체와 수출 서류 발행 주체를 업체별로 확정합니다.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "계약 주체와 수출 서류 발행 주체를 업체별로 확정합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "FOB/CIF 부산 조건, 내륙 운임, 포장비 포함 여부를 분리 확인합니다.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOB/CIF 부산 조건, 내륙 운임, 포장비 포함 여부를 분리 확인합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "MOQ가 품목별 기준인지 전체 발주 기준인지 재대조합니다.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MOQ가 품목별 기준인지 전체 발주 기준인지 재대조합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2xcnmhw",
+      "id": "8",
+      "bbox": [
+        676,
+        178,
+        520,
+        384
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q14vuhgb",
+      "id": "9",
+      "bbox": [
+        702,
+        204,
+        220,
+        28
+      ],
+      "geometry": "rect",
+      "text": "후속 요청",
+      "textPreview": "후속 요청",
+      "resolvedFontSize": 20.29,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "후속 요청"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "후속 요청",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "후속 요청",
+              "fontSize": 24,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s7m9grex",
+      "id": "10",
+      "bbox": [
+        706,
+        254,
+        440,
+        250
+      ],
+      "geometry": "rect",
+      "text": "성분표, 제조공정도, 검역 서류, 한국 사료 수입 대응 범위를 요청합니다.\n소용량 토핑, 캔, 동결건조 원물별 샘플 우선순위를 확정합니다.\n기능성 문구는 국내 표시 가능 범위 안에서 별도 검토합니다.",
+      "textPreview": "성분표, 제조공정도, 검역 서류, 한국 사료 수입 대응 범위를 요청합니다. | 소용량 토핑, 캔, 동결건조 원물별 샘플 우선순위를 확정합니다. | 기능성 문구는 국내 표시 가능 범위 안에서 별도 검토합니다.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 성분표, 제조공정도, 검역 서류, 한국 사료 수입 대응"
+          },
+          {
+            "index": 2,
+            "text": "범위를 요청합니다."
+          },
+          {
+            "index": 3,
+            "text": "• 소용량 토핑, 캔, 동결건조 원물별 샘플 우선순위를"
+          },
+          {
+            "index": 4,
+            "text": "확정합니다."
+          },
+          {
+            "index": 5,
+            "text": "• 기능성 문구는 국내 표시 가능 범위 안에서 별도"
+          },
+          {
+            "index": 6,
+            "text": "검토합니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "성분표, 제조공정도, 검역 서류, 한국 사료 수입 대응 범위를 요청합니다.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "성분표, 제조공정도, 검역 서류, 한국 사료 수입 대응 범위를 요청합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "소용량 토핑, 캔, 동결건조 원물별 샘플 우선순위를 확정합니다.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "소용량 토핑, 캔, 동결건조 원물별 샘플 우선순위를 확정합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "기능성 문구는 국내 표시 가능 범위 안에서 별도 검토합니다.",
+          "bulletCharacter": "•",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "lineSpacing": 1.14
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "기능성 문구는 국내 표시 가능 범위 안에서 별도 검토합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "lineSpacing": 1.14
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsva9wfi",
+      "id": "11",
+      "bbox": [
+        78,
+        596,
+        1118,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#15233B",
+      "lineColor": "#15233B",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/654rehwr",
+      "id": "12",
+      "bbox": [
+        106,
+        614,
+        1060,
+        24
+      ],
+      "geometry": "rect",
+      "text": "결론: 1순위 업체는 캔·동결건조를 동시에 견적화하고, 나머지는 품목별 후보로 분리해 샘플 검증합니다.",
+      "textPreview": "결론: 1순위 업체는 캔·동결건조를 동시에 견적화하고, 나머지는 품목별 후보로 분리해 샘플 검증합니다.",
+      "resolvedFontSize": 17.39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Malgun Gothic",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.97,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "결론: 1순위 업체는 캔·동결건조를 동시에 견적화하고, 나머지는 품목별 후보로 분리해 샘플 검증합니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "결론: 1순위 업체는 캔·동결건조를 동시에 견적화하고, 나머지는 품목별 후보로 분리해 샘플 검증합니다.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "결론: 1순위 업체는 캔·동결건조를 동시에 견적화하고, 나머지는 품목별 후보로 분리해 샘플 검증합니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

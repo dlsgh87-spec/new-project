@@ -1,0 +1,5 @@
+PET FAIR ASIA 2026 PPT conversion source notes
+Source HTML: C:\Users\CHOIIH\Desktop\중국박람회 사진\PET_FAIR_ASIA_2026_미팅사진매칭_메모업체만_260820.html
+Final PPTX: C:\Users\CHOIIH\Desktop\중국박람회 사진\PET_FAIR_ASIA_2026_미팅정리_PPT_260825.pptx
+All visible vendor copy and embedded photos were extracted from the source HTML.
+No external web research was used for this conversion.

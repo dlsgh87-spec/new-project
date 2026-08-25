@@ -1,0 +1,3173 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/b8djzk",
+    "id": "b8djzk",
+    "slide": 3,
+    "layoutId": "8cfc56e2-a197-41be-bad3-e00254e5eecf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1473d52e-0a66-46f7-899c-c31f834919fe",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Malgun Gothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cfc56e2-a197-41be-bad3-e00254e5eecf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1473d52e-0a66-46f7-899c-c31f834919fe",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1473d52e-0a66-46f7-899c-c31f834919fe",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rex0n6hs",
+      "id": "1",
+      "bbox": [
+        64,
+        38,
+        800,
+        50
+      ],
+      "geometry": "rect",
+      "text": "업체별 역할을 먼저 보고 들어갑니다",
+      "textPreview": "업체별 역할을 먼저 보고 들어갑니다",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 35,
+        "typeface": "Malgun Gothic",
+        "color": "#15233B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "업체별 역할을 먼저 보고 들어갑니다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "업체별 역할을 먼저 보고 들어갑니다",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "typeface": "Malgun Gothic",
+            "color": "#15233B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "업체별 역할을 먼저 보고 들어갑니다",
+              "fontSize": 35,
+              "typeface": "Malgun Gothic",
+              "color": "#15233B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sf61gbid",
+      "id": "2",
+      "bbox": [
+        66,
+        88,
+        770,
+        36
+      ],
+      "geometry": "rect",
+      "text": "업체별 강점이 겹치므로 미팅 질문은 품목별로 좁혀 진행하는 편이 효율적입니다.",
+      "textPreview": "업체별 강점이 겹치므로 미팅 질문은 품목별로 좁혀 진행하는 편이 효율적입니다.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "업체별 강점이 겹치므로 미팅 질문은 품목별로 좁혀 진행하는 편이 효율적입니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "업체별 강점이 겹치므로 미팅 질문은 품목별로 좁혀 진행하는 편이 효율적입니다.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "업체별 강점이 겹치므로 미팅 질문은 품목별로 좁혀 진행하는 편이 효율적입니다.",
+              "fontSize": 17,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgfipgzy",
+      "id": "3",
+      "bbox": [
+        64,
+        128,
+        1120,
+        3
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5C542",
+      "lineColor": "#F5C542",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehojil0j",
+      "id": "4",
+      "bbox": [
+        1110,
+        44,
+        90,
+        26
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#667085",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#667085",
+            "alignment": "right",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#667085",
+              "alignment": "right",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fix0rqh4",
+      "id": "5",
+      "bbox": [
+        72,
+        158,
+        250,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#15233B",
+      "lineColor": "#15233B",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0j61kvyp",
+      "id": "6",
+      "bbox": [
+        84,
+        168,
+        226,
+        20
+      ],
+      "geometry": "rect",
+      "text": "업체",
+      "textPreview": "업체",
+      "resolvedFontSize": 14.49,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Malgun Gothic",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "업체"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "업체",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Malgun Gothic",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "업체",
+              "fontSize": 16,
+              "typeface": "Malgun Gothic",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kz2t0za",
+      "id": "7",
+      "bbox": [
+        322,
+        158,
+        160,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#15233B",
+      "lineColor": "#15233B",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul4z610f",
+      "id": "8",
+      "bbox": [
+        334,
+        168,
+        136,
+        20
+      ],
+      "geometry": "rect",
+      "text": "역할",
+      "textPreview": "역할",
+      "resolvedFontSize": 14.49,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Malgun Gothic",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "역할"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "역할",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Malgun Gothic",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "역할",
+              "fontSize": 16,
+              "typeface": "Malgun Gothic",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmd0fmhk",
+      "id": "9",
+      "bbox": [
+        482,
+        158,
+        360,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#15233B",
+      "lineColor": "#15233B",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zytwb6dw",
+      "id": "10",
+      "bbox": [
+        494,
+        168,
+        336,
+        20
+      ],
+      "geometry": "rect",
+      "text": "가능 품목",
+      "textPreview": "가능 품목",
+      "resolvedFontSize": 14.49,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Malgun Gothic",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "가능 품목"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "가능 품목",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Malgun Gothic",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "가능 품목",
+              "fontSize": 16,
+              "typeface": "Malgun Gothic",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/exkvi1wb",
+      "id": "11",
+      "bbox": [
+        842,
+        158,
+        342,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#15233B",
+      "lineColor": "#15233B",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/10vedwv2",
+      "id": "12",
+      "bbox": [
+        854,
+        168,
+        318,
+        20
+      ],
+      "geometry": "rect",
+      "text": "미팅 포인트",
+      "textPreview": "미팅 포인트",
+      "resolvedFontSize": 14.49,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Malgun Gothic",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "미팅 포인트"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "미팅 포인트",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Malgun Gothic",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "미팅 포인트",
+              "fontSize": 16,
+              "typeface": "Malgun Gothic",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zmdkbeh",
+      "id": "13",
+      "bbox": [
+        72,
+        204,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rutw7mxk",
+      "id": "14",
+      "bbox": [
+        322,
+        204,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtkvehwz",
+      "id": "15",
+      "bbox": [
+        482,
+        204,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwbe9wvq",
+      "id": "16",
+      "bbox": [
+        842,
+        204,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv2dgre5",
+      "id": "17",
+      "bbox": [
+        84,
+        213,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Wonderful Kitchen",
+      "textPreview": "Wonderful Kitchen",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Wonderful Kitchen"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Wonderful Kitchen",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Wonderful Kitchen",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q9c3mxo",
+      "id": "18",
+      "bbox": [
+        334,
+        218,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "캔+동결건조",
+      "textPreview": "캔+동결건조",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "캔+동결건조"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "캔+동결건조",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "캔+동결건조",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p0vahw3",
+      "id": "19",
+      "bbox": [
+        494,
+        212,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "메모 기준 펫 캔 85g·375g, 주식 캔 85g, 닭가슴살+캣닢, 동결건조 열빙어, 딸기, 새우, 홍합, 관자...",
+      "textPreview": "메모 기준 펫 캔 85g·375g, 주식 캔 85g, 닭가슴살+캣닢, 동결건조 열빙어, 딸기, 새우, 홍합, 관자...",
+      "resolvedFontSize": 13.42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "메모 기준 펫 캔 85g·375g, 주식 캔 85g, 닭가슴살+캣닢,"
+          },
+          {
+            "index": 2,
+            "text": "동결건조 열빙어, 딸기, 새우, 홍합, 관자..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "메모 기준 펫 캔 85g·375g, 주식 캔 85g, 닭가슴살+캣닢, 동결건조 열빙어, 딸기, 새우, 홍합, 관자...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "메모 기준 펫 캔 85g·375g, 주식 캔 85g, 닭가슴살+캣닢, 동결건조 열빙어, 딸기, 새우, 홍합, 관자...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/610fmhgv",
+      "id": "20",
+      "bbox": [
+        854,
+        212,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "캔 85g/170g/375g 견적서 요청.",
+      "textPreview": "캔 85g/170g/375g 견적서 요청.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "캔 85g/170g/375g 견적서 요청."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "캔 85g/170g/375g 견적서 요청.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "캔 85g/170g/375g 견적서 요청.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/729wv2hg",
+      "id": "21",
+      "bbox": [
+        72,
+        262,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/snixo7y1",
+      "id": "22",
+      "bbox": [
+        322,
+        262,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/torexczm",
+      "id": "23",
+      "bbox": [
+        482,
+        262,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/up0fqhg7",
+      "id": "24",
+      "bbox": [
+        842,
+        262,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fq9wzmhs",
+      "id": "25",
+      "bbox": [
+        84,
+        271,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Ningbo Today Food Co., Ltd.",
+      "textPreview": "Ningbo Today Food Co., Ltd.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ningbo Today Food Co., Ltd."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ningbo Today Food Co., Ltd.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ningbo Today Food Co., Ltd.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/grixsryx",
+      "id": "26",
+      "bbox": [
+        334,
+        276,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "적육/대용량 캔",
+      "textPreview": "적육/대용량 캔",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "적육/대용량 캔"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "적육/대용량 캔",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "적육/대용량 캔",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsbe1wzi",
+      "id": "27",
+      "bbox": [
+        494,
+        270,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "펫 캔 85g·170g·400g. 참치/수산물 베이스 캔. 샘플 기준 170g 참치+닭가슴살, 170g 참치 레드...",
+      "textPreview": "펫 캔 85g·170g·400g. 참치/수산물 베이스 캔. 샘플 기준 170g 참치+닭가슴살, 170g 참치 레드...",
+      "resolvedFontSize": 13.77,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "펫 캔 85g·170g·400g. 참치/수산물 베이스 캔. 샘플"
+          },
+          {
+            "index": 2,
+            "text": "기준 170g 참치+닭가슴살, 170g 참치 레드..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "펫 캔 85g·170g·400g. 참치/수산물 베이스 캔. 샘플 기준 170g 참치+닭가슴살, 170g 참치 레드...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "펫 캔 85g·170g·400g. 참치/수산물 베이스 캔. 샘플 기준 170g 참치+닭가슴살, 170g 참치 레드...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2tkfu1g3",
+      "id": "28",
+      "bbox": [
+        854,
+        270,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "한국 수출 경험 체크.",
+      "textPreview": "한국 수출 경험 체크.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "한국 수출 경험 체크."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "한국 수출 경험 체크.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "한국 수출 경험 체크.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3utw3mho",
+      "id": "29",
+      "bbox": [
+        72,
+        320,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dovit0jq",
+      "id": "30",
+      "bbox": [
+        322,
+        320,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnmhkvi5",
+      "id": "31",
+      "bbox": [
+        482,
+        320,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmdgrq10",
+      "id": "32",
+      "bbox": [
+        842,
+        320,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ql4zil0f",
+      "id": "33",
+      "bbox": [
+        84,
+        329,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Hunan Peto Biotechnology",
+      "textPreview": "Hunan Peto Biotechnology",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Hunan Peto Biotechnology"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Hunan Peto Biotechnology",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Hunan Peto Biotechnology",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1sfix0j2",
+      "id": "34",
+      "bbox": [
+        334,
+        334,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "소용량 토핑",
+      "textPreview": "소용량 토핑",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "소용량 토핑"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "소용량 토핑",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "소용량 토핑",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0r6hovih",
+      "id": "35",
+      "bbox": [
+        494,
+        328,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "닭가슴살+캣닢, 난황/계란, 동결건조 열빙어, 기능성 동결건조 큐브, 동결건조 베이크, 신선찜 펫푸드. 부스 기준...",
+      "textPreview": "닭가슴살+캣닢, 난황/계란, 동결건조 열빙어, 기능성 동결건조 큐브, 동결건조 베이크, 신선찜 펫푸드. 부스 기준...",
+      "resolvedFontSize": 12.58,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "닭가슴살+캣닢, 난황/계란, 동결건조 열빙어, 기능성"
+          },
+          {
+            "index": 2,
+            "text": "동결건조 큐브, 동결건조 베이크, 신선찜 펫푸드. 부스"
+          },
+          {
+            "index": 3,
+            "text": "기준..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "닭가슴살+캣닢, 난황/계란, 동결건조 열빙어, 기능성 동결건조 큐브, 동결건조 베이크, 신선찜 펫푸드. 부스 기준...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "닭가슴살+캣닢, 난황/계란, 동결건조 열빙어, 기능성 동결건조 큐브, 동결건조 베이크, 신선찜 펫푸드. 부스 기준...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqd0vq1w",
+      "id": "36",
+      "bbox": [
+        854,
+        328,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "닭가슴살+캣닢 10g/20g 포장 견적 요청.",
+      "textPreview": "닭가슴살+캣닢 10g/20g 포장 견적 요청.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "닭가슴살+캣닢 10g/20g 포장 견적 요청."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "닭가슴살+캣닢 10g/20g 포장 견적 요청.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "닭가슴살+캣닢 10g/20g 포장 견적 요청.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ep4zm50b",
+      "id": "37",
+      "bbox": [
+        72,
+        378,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gfi1kjy",
+      "id": "38",
+      "bbox": [
+        322,
+        378,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/of6hsfid",
+      "id": "39",
+      "bbox": [
+        482,
+        378,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbalkj2l",
+      "id": "40",
+      "bbox": [
+        842,
+        378,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cj2to36",
+      "id": "41",
+      "bbox": [
+        84,
+        387,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Jinchong",
+      "textPreview": "Jinchong",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jinchong"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jinchong",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jinchong",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i98ji9kv",
+      "id": "42",
+      "bbox": [
+        334,
+        392,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "소용량 토핑",
+      "textPreview": "소용량 토핑",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "소용량 토핑"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "소용량 토핑",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "소용량 토핑",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ja1krel0",
+      "id": "43",
+      "bbox": [
+        494,
+        386,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "난황, 닭가슴살, 닭가슴살+캣닢, 동결건조 딸기 10g, 캣닢 내장형 토핑. 공식 브랜드 설명상 수제 무첨가 닭가...",
+      "textPreview": "난황, 닭가슴살, 닭가슴살+캣닢, 동결건조 딸기 10g, 캣닢 내장형 토핑. 공식 브랜드 설명상 수제 무첨가 닭가...",
+      "resolvedFontSize": 13.24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "난황, 닭가슴살, 닭가슴살+캣닢, 동결건조 딸기 10g, 캣닢"
+          },
+          {
+            "index": 2,
+            "text": "내장형 토핑. 공식 브랜드 설명상 수제 무첨가 닭가..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "난황, 닭가슴살, 닭가슴살+캣닢, 동결건조 딸기 10g, 캣닢 내장형 토핑. 공식 브랜드 설명상 수제 무첨가 닭가...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "난황, 닭가슴살, 닭가슴살+캣닢, 동결건조 딸기 10g, 캣닢 내장형 토핑. 공식 브랜드 설명상 수제 무첨가 닭가...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7q1gz2p",
+      "id": "44",
+      "bbox": [
+        854,
+        386,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "10g/20g 완제품 포장 견적 요청.",
+      "textPreview": "10g/20g 완제품 포장 견적 요청.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10g/20g 완제품 포장 견적 요청."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10g/20g 완제품 포장 견적 요청.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10g/20g 완제품 포장 견적 요청.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8z2p43a",
+      "id": "45",
+      "bbox": [
+        72,
+        436,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al8jepkj",
+      "id": "46",
+      "bbox": [
+        322,
+        436,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmhknul4",
+      "id": "47",
+      "bbox": [
+        482,
+        436,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3uls32t",
+      "id": "48",
+      "bbox": [
+        842,
+        436,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h432183e",
+      "id": "49",
+      "bbox": [
+        84,
+        445,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "ELF FISH / JiLan Biotechnology",
+      "textPreview": "ELF FISH / JiLan Biotechnology",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ELF FISH / JiLan Biotechnology"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ELF FISH / JiLan Biotechnology",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ELF FISH / JiLan Biotechnology",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ry5or25g",
+      "id": "50",
+      "bbox": [
+        334,
+        450,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "해산물 원물",
+      "textPreview": "해산물 원물",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "해산물 원물"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "해산물 원물",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "해산물 원물",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxwnyx4v",
+      "id": "51",
+      "bbox": [
+        494,
+        444,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "난황 계열, 닭가슴살, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자/가리비. 공식 페이지상 연어·대구 풍미 시리...",
+      "textPreview": "난황 계열, 닭가슴살, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자/가리비. 공식 페이지상 연어·대구 풍미 시리...",
+      "resolvedFontSize": 12.58,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "난황 계열, 닭가슴살, 닭가슴살+캣닢, 동결건조 새우,"
+          },
+          {
+            "index": 2,
+            "text": "동결건조 관자/가리비. 공식 페이지상 연어·대구 풍미"
+          },
+          {
+            "index": 3,
+            "text": "시리..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "난황 계열, 닭가슴살, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자/가리비. 공식 페이지상 연어·대구 풍미 시리...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "난황 계열, 닭가슴살, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자/가리비. 공식 페이지상 연어·대구 풍미 시리...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0n6tcnm",
+      "id": "52",
+      "bbox": [
+        854,
+        444,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "난황, 닭가슴살+캣닢, 관자 3개 품목 견적 재요청.",
+      "textPreview": "난황, 닭가슴살+캣닢, 관자 3개 품목 견적 재요청.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "난황, 닭가슴살+캣닢, 관자 3개 품목 견적 재요청."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "난황, 닭가슴살+캣닢, 관자 3개 품목 견적 재요청.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "난황, 닭가슴살+캣닢, 관자 3개 품목 견적 재요청.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cze507m1",
+      "id": "53",
+      "bbox": [
+        72,
+        494,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2pov25s",
+      "id": "54",
+      "bbox": [
+        322,
+        494,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1gn2x47",
+      "id": "55",
+      "bbox": [
+        482,
+        494,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1476xcny",
+      "id": "56",
+      "bbox": [
+        842,
+        494,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAFCFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03y547md",
+      "id": "57",
+      "bbox": [
+        84,
+        503,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "NakiPet",
+      "textPreview": "NakiPet",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NakiPet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NakiPet",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NakiPet",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6l4ji58",
+      "id": "58",
+      "bbox": [
+        334,
+        508,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "프리미엄 원물",
+      "textPreview": "프리미엄 원물",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "프리미엄 원물"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "프리미엄 원물",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "프리미엄 원물",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5cnqd43",
+      "id": "59",
+      "bbox": [
+        494,
+        502,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "난황, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자, 동결건조 가리비, 콜라겐 덴탈츄류. 공식 제품군에 Naki...",
+      "textPreview": "난황, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자, 동결건조 가리비, 콜라겐 덴탈츄류. 공식 제품군에 Naki...",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "난황, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자,"
+          },
+          {
+            "index": 2,
+            "text": "동결건조 가리비, 콜라겐 덴탈츄류. 공식 제품군에 Naki..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "난황, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자, 동결건조 가리비, 콜라겐 덴탈츄류. 공식 제품군에 Naki...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "난황, 닭가슴살+캣닢, 동결건조 새우, 동결건조 관자, 동결건조 가리비, 콜라겐 덴탈츄류. 공식 제품군에 Naki...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ix4ze5sn",
+      "id": "60",
+      "bbox": [
+        854,
+        502,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "특수 원물 샘플만 수령.",
+      "textPreview": "특수 원물 샘플만 수령.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "특수 원물 샘플만 수령."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "특수 원물 샘플만 수령.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "특수 원물 샘플만 수령.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jyd0nat8",
+      "id": "61",
+      "bbox": [
+        72,
+        552,
+        250,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zmhgfat",
+      "id": "62",
+      "bbox": [
+        322,
+        552,
+        160,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50vipkbe",
+      "id": "63",
+      "bbox": [
+        482,
+        552,
+        360,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9kza5sr",
+      "id": "64",
+      "bbox": [
+        842,
+        552,
+        342,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0EB",
+      "lineWidth": 1
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vatgjatc",
+      "id": "65",
+      "bbox": [
+        84,
+        561,
+        226,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Jiangxi Haci/Harts Pet Products...",
+      "textPreview": "Jiangxi Haci/Harts Pet Products...",
+      "resolvedFontSize": 14.19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#172033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jiangxi Haci/Harts Pet Products..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jiangxi Haci/Harts Pet Products...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#172033",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jiangxi Haci/Harts Pet Products...",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#172033",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hcfah",
+      "id": "66",
+      "bbox": [
+        334,
+        566,
+        136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "덴탈/저키",
+      "textPreview": "덴탈/저키",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#11856F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "덴탈/저키"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "덴탈/저키",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#11856F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "덴탈/저키",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#11856F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcbyl0b2",
+      "id": "67",
+      "bbox": [
+        494,
+        560,
+        336,
+        38
+      ],
+      "geometry": "rect",
+      "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄...",
+      "textPreview": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄...",
+      "resolvedFontSize": 12.92,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식"
+          },
+          {
+            "index": 2,
+            "text": "페이지상 신선육 펫트릿 및 강아지·고양이 기능성"
+          },
+          {
+            "index": 3,
+            "text": "덴탈츄..."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄...",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "껌류, 구강 간식, 난황+오리, 대두단백 랩핑 간식. 공식 페이지상 신선육 펫트릿 및 강아지·고양이 기능성 덴탈츄...",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m50z6lsf",
+      "id": "68",
+      "bbox": [
+        854,
+        560,
+        318,
+        38
+      ],
+      "geometry": "rect",
+      "text": "우선 협상 대상에서는 제외.",
+      "textPreview": "우선 협상 대상에서는 제외.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Malgun Gothic",
+        "color": "#344054",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "우선 협상 대상에서는 제외."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "우선 협상 대상에서는 제외.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Malgun Gothic",
+            "color": "#344054",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "우선 협상 대상에서는 제외.",
+              "fontSize": 14,
+              "typeface": "Malgun Gothic",
+              "color": "#344054",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
