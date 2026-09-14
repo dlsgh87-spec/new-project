@@ -5,7 +5,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 root = Path(__file__).parent
-payload = base64.b64decode((root / 'export-v5.b64').read_text())
+payload = base64.b64decode((root / 'export-v8.b64').read_text())
 ns = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 # Read-only visual snapshot: keep Google's cached values to avoid recalculating
 # Google-specific formulas in the local renderer. Never upload this copy.
