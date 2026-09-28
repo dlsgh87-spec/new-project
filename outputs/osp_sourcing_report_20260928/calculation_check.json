@@ -1,0 +1,27 @@
+{
+  "cost_assumption": 5264.0,
+  "rows": [
+    {
+      "scenario": "쿠폰 미적용",
+      "consumer": 11900.0,
+      "revenue": 7031.818181818182,
+      "margin_ad5": 20.14027149321267,
+      "margin_ad10": 15.14027149321267
+    },
+    {
+      "scenario": "상시 쿠폰 10%",
+      "consumer": 10710.0,
+      "revenue": 5950.0,
+      "margin_ad5": 6.529411764705882,
+      "margin_ad10": 1.5294117647058822
+    },
+    {
+      "scenario": "행사 최종가",
+      "consumer": 9900.0,
+      "revenue": 5213.636363636364,
+      "margin_ad5": -5.965998256320837,
+      "margin_ad10": -10.965998256320837
+    }
+  ],
+  "regular_cost_ceiling_ad10_margin20": 4165
+}
